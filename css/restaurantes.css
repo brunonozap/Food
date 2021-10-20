@@ -1,0 +1,664 @@
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;   
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+    position: relative;
+}
+
+.fonte_personalizada{
+    font-family: "Montserrat-Bold";
+}
+
+.img-responsive{
+    width: 50%;
+    margin-bottom: 10%;
+}
+
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: black;
+    height: 20px;
+}
+
+.text-black{
+    color: black;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+element.style {
+    transform: translateX(-2513px);
+    transition: 200ms;
+    display: grid;
+    grid-template-columns: repeat(15, 409px);
+    grid-gap: 10px;
+}
+
+.links{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+a{
+    color: #4CAF50;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+
+a.botao2{
+    color: black;
+    text-decoration: none;
+}
+
+a.botao2:hover{
+    color: #67db6b;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: rgb(219, 243, 0);
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: rgb(243, 178, 0);
+}
+
+.btn-green{
+	background-color: #4CAF50; /* Green */
+	color: white;
+	padding: 1%;
+	text-decoration: none;
+	align-items: center;
+    position: relative;
+    margin: 0;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    border: 1px solid white;
+    background-color: #4CAF50;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+.footer {
+	border-top: 1px solid #dcdcdc;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+    background-color: rgb(15, 59, 15);
+}
+
+.footer img {
+	width: 50px;
+}
+
+.footer span {
+	font-size: 0.8125rem;
+	color: white;
+	margin: 0 20px;
+    padding-top: 20px;
+}
+
+
+/* CSSS for navbar section */
+
+.logo{
+    width: 40%;
+    float: left;
+}
+.menu{
+    line-height: 60px;
+    color: white;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+
+/* CSS for Food SEarch Section */
+
+.food-search{
+    background-image: url(../imagens/comida1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* CSS for Categories */
+.categories{
+    padding: 4% 0;
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+
+/* CSS for Food Menu */
+.food-menu{
+    background-color: white;
+    padding: 4% 0;
+}
+
+.navbar{
+    background-color: rgb(15, 59, 15);
+}
+
+.food-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    border: 0.2px solid #8080805c;
+}
+
+.imagem_comida{
+    width: 100%;
+    height: 150px;
+}
+
+.food-menu-img{
+    width: 25%;
+    float: left;
+    margin-right: 5%;
+}
+
+.food-menu-desc{
+    width: 70%;
+    float: left;
+}
+
+.nome{
+    font-size: 1.5rem;
+    margin: 3% 0;
+    font-family: "Montserrat-Bold";
+    color: #747d8c;
+    font-weight: bold;
+}
+
+.bairro{
+    font-size: 1.5rem;
+    font-family: "Montserrat-Bold";
+    margin: 3% 0;
+    color: #747d8c;
+    font-weight: bold;
+}
+
+.telefone{
+    font-size: 1rem;
+    margin: 3% 0;
+    color: #747d8c;
+    font-family: "Montserrat-Bold";
+    font-weight: bold;
+}
+
+.email{
+    font-size: 0.9rem;
+    margin: 3% 0;
+    color: #747d8c;
+    font-family: "Montserrat-Bold";
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* CSS for Social */
+.social ul{
+    list-style-type: none;
+}
+
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* for Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+    color: #333; 
+}
+
+
+@media only screen and (min-width: 320px) and (orientation: portrait)
+{
+    .logo {
+        width: 90%;
+        float: left;
+    }
+
+    .food-menu-desc {
+        width: 49%;
+        margin-left: 14%;
+        float: left;
+    }
+
+    .img-responsive {
+        width: 75%;
+        margin-bottom: 10%;
+    }
+
+    .imagem_comida {
+        width: 162%;
+        height: 135px;
+    }
+
+    .food-menu-box {
+        width: 100%;
+        margin: 1%;
+        padding: 2%;
+        float: left;
+        border: 0.2px solid #8080805c;
+    }
+}
+
+@media only screen and (min-width: 425px) and (orientation: portrait) /* aq funfa no meu celular */
+{
+    .logo {
+        width: 90%;
+        float: left;
+    }
+
+    .nome {
+        font-size: 1.2rem;
+        margin: 3% 0;
+        font-family: "Montserrat-Bold";
+        color: #747d8c;
+        font-weight: bold;
+    }
+
+    .img-responsive {
+        width: 75%;
+        margin-bottom: 10%;
+    }
+
+    .imagem_comida {
+        width: 162%;
+        height: 130px;
+    }
+
+    .food-menu-box {
+        width: 100%;
+        margin: 1%;
+        padding: 2%;
+        float: left;
+        border: 0.2px solid #8080805c;
+    }
+}
+
+
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (min-width:768px) and (orientation: portrait){
+    .logo{
+        width: 30%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+    
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .food-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .imagem_comida {
+        width: 192%;
+        height: 150px;
+    }
+
+    .food-menu-desc {
+        width: 39%;
+        float: left;
+        margin-left: 16%;
+    }
+
+    .food-menu-img {
+        width: 25%;
+        float: left;
+        margin-right: 24%;
+    }
+
+    .food-menu-box {
+        width: 100%;
+        margin: 1%;
+        padding: 2%;
+        float: left;
+        border: 0.2px solid #8080805c;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:768px) and (orientation: landscape){
+    .logo{
+        width: 30%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .food-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .imagem_comida {
+        width: 192%;
+        height: 160px;
+    }
+
+    .food-menu-desc {
+        width: 39%;
+        float: left;
+        margin-left: 16%;
+    }
+
+    .food-menu-img {
+        width: 25%;
+        float: left;
+        margin-right: 24%;
+    }
+
+    .food-menu-box {
+        width: 100%;
+        margin: 1%;
+        padding: 2%;
+        float: left;
+        border: 0.2px solid #8080805c;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:1024px) and (orientation: landscape){
+    .logo {
+        float: left;
+    }
+
+    .img-responsive {
+        width: 50%;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .food-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+
+    h2 {
+        margin-bottom: 2%;
+    }
+    
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .food-menu {
+        padding: 5% 0;
+    }
+
+    .imagem_comida {
+        width: 185%;
+        height: 160px;
+    }
+
+    .food-menu-desc {
+        width: 39%;
+        float: left;
+        margin-left: 10%;
+    }
+
+    .food-menu-box {
+        width: 37%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:1440px) and (orientation: landscape) {
+    .logo{
+        width: 30%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .img-responsive {
+        width: 74%;
+        margin-bottom: -16%;
+        margin-left: -101%;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .food-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 5%;
+    }
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .food-menu {
+        padding: 6% 0;
+    }
+
+    .imagem_comida {
+        width: 182%;
+        height: 195px;
+    }
+
+    .food-menu-box {
+        width: 33%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+
+    .food-menu-desc {
+        width: 39%;
+        float: left;
+        margin-left: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+}

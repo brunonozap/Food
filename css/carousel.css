@@ -1,0 +1,103 @@
+.carousel {
+    overflow: hidden;
+    position: relative;
+}
+
+.botao {
+    width: 40px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid #c8c8c8;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.botao:nth-of-type(2){
+    left: 95%;
+}
+
+ #carousel-informacoes {
+     width: 90%;
+     margin: 0 auto;
+     display: flex;
+     justify-content: left;
+     overflow-x: auto;
+ }
+ #carousel-informacoes::-webkit-scrollbar{
+     visibility: hidden;
+ }
+ .container-card {
+     min-width: 285px;
+     transition: 0.5s;
+     background: #fff;
+     border: 1px solid #f2f2f2;
+     border-radius: 4px;
+     display: flex;
+     padding: 20px;
+     margin-left: 8px;
+     position: relative;
+ }
+
+.container-card:hover {
+border: 1px solid  #acacac;
+cursor: pointer;
+
+}
+
+.empresa {
+    font-size: 1rem;
+    font-weight: 550;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    font-family: "SulSans", Helvetica, sans-serif;
+    margin-top: 0px;
+    padding-left: 15px;
+    
+}
+
+.linha {
+    width: 1px;
+    background-color: #f2f2f2;
+    display: inline;
+    margin-left: 15px;
+    
+}
+
+ .texto-card {
+    font-family: "SulSans", Helvetica, sans-serif;
+}
+
+.text {
+    font-weight: 550;
+    color: #e7a74e;
+    font-size: 17px;
+    margin-left: 15px;
+    padding-top: 5px;
+    display: block;
+    
+}
+
+.bolinha{
+    margin: 0px 5px;
+    color: #717171;
+    font-size: 15px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.texto-descricao {
+    font-family: "SulSans", Helvetica, sans-serif;
+    color: #717171;
+    font-size: 14px; 
+    line-height: 1rem;
+    
+}
+
+.infor-P {
+    padding-top: 10px;
+}

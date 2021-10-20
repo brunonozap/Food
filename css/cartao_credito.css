@@ -1,0 +1,632 @@
+/* CSS for All */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-geral{
+    margin: 0;
+}
+#add-restaurante-Fundo {
+    width: 100%;
+    height: 253vh;
+    background-image: url('../imagens/pratos-fundo.jpg');
+    background-size: cover;
+}
+
+.formulario-geral {
+    padding-top: 25px;   
+}
+
+::placeholder{
+    color: black;
+}
+
+.logo{
+    width: 14%;
+    float: right;
+}
+
+.img-responsive{
+    width: 100%;
+    margin-left: 10px;
+}
+
+
+fieldset{
+    width: 100%;
+    padding-bottom: 2;
+    margin-bottom: 2%;
+}
+
+.titulo {
+    /*padding-top: 35px;*/
+    /*padding-right: 30px;*/
+    text-align: center;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    color: black
+
+}
+
+/*.cabeca {
+    display: flex;
+    padding-top: 4px;
+}
+
+.cabeca ul {
+    margin-left: 250%;
+    display: flex;
+    float: left;
+}
+
+.cabeca ul li {
+    font-size: 15px;
+    list-style: none;
+    margin: 0 25px;
+}
+
+.cabeca ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.cabeca ul li a:hover{
+    color: black;
+}*/
+
+
+.Bandeira{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+
+.error{
+	color: #ff4757;
+}
+
+        /*form[id="formulario"]{
+            background: white;
+            max-width: 50%;
+            min-width: 30%;
+            margin-top: auto;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 4%;
+            padding-right: 4%;
+            padding-top: 5px;
+            padding-bottom: 1%;
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            box-shadow: 0 0 3px black;
+            height: 8%;
+            font-weight: bold;
+            display: flex;
+            color: #000;
+            text-align: center
+        }
+
+        form input[type=text],
+        form input[type=password],
+        form input[type=number]{
+            width: 81%;
+            height: 45px;
+            border: 1px solid #ccc;
+            padding-left: 10px;
+            margin: 10px 0;
+            border-radius: 10px;
+			margin-top: 18px;
+            margin-left: 10px;
+            outline: none;
+            background-color: gray;
+            color: black;
+        }
+
+        form input[type=submit]{
+            width: 75%;
+            height: 50px;
+			margin-top: 18px;
+            cursor: pointer;
+			font-family:sans-serif;
+			font-size: 15px;
+            background: rgb(219, 243, 0);
+            color: #000;
+            border: 2px solid #000;
+            border-radius: 5px;
+            transition: 0.15s;
+			font-weight: 550;
+            margin-left: 2px;
+            margin-bottom: 18px;
+            
+        }
+        form input[type=submit]:hover{
+            color: #fff;
+            background-color: #000;
+        }*/
+        input[type="file"] {
+            display: none;
+        }
+        label[for="arquivo"]{
+            padding: 8px;
+            margin-left: 10px;
+            background-color: rgb(170, 170, 170);
+            color: #000;
+            border-radius: 5px;
+            border: 1px solid #000;
+            cursor: pointer;
+        }
+        label[for="arquivo"]:hover{
+            color: #fff;
+            background-color: #000;
+        }
+        table[class="tbl-30"] {
+            padding-top: 10px;
+        }
+
+        .footer-rodape-baixo {
+            padding-left: 5px;
+            background-color: green;
+            left: 0;
+            bottom: 0;
+        }
+        
+        .footer-rodape-baixo img {
+            width: 40px;
+            display: block;
+        }
+        
+        .footer-rodape-baixo span {
+            font-size: 0.8125rem;
+            color: white;
+            padding-left: 2px;
+            font-size: 12px;
+        }
+
+@media only screen and (min-width: 320px)  {
+    .nav-bar {
+        display: flex;
+        width: 100%;
+        padding-top: 30px;
+        background-color: rgb(15, 59, 15);
+    }
+
+    .img-responsive {
+        width: 200%;
+        margin-left: 10px;
+    }
+
+    .titulo {
+        /* padding-top: 35px; */
+        /* padding-right: 30px; */
+        text-align: center;
+        margin-top: 5%;
+        font-size: 83px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        color: black;
+    }
+
+    form[id="formulario"]{
+        background: white;
+        max-width: 80%;
+        min-width: 30%;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 5px;
+        padding-bottom: 1%;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        box-shadow: 0 0 3px black;
+        height: 8%;
+        font-weight: bold;
+        display: flex;
+        color: #000;
+        text-align: center
+    }
+
+    form input[type=text],
+    form input[type=password],
+    form input[type=number]{
+        width: 81%;
+        height: 100px;
+        border: 1px solid #ccc;
+        padding-left: 10px;
+        margin: 10px 0;
+        border-radius: 10px;
+        margin-top: 18px;
+        margin-left: 10px;
+        outline: none;
+        background-color: gray;
+        color: black;
+        font-size: 40px;
+    }
+
+    form input[type=submit] {
+        width: 75%;
+        height: 118px;
+        margin-top: 18px;
+        cursor: pointer;
+        font-family: sans-serif;
+        font-size: 15px;
+        background: rgb(219, 243, 0);
+        color: #000;
+        border: 2px solid #000;
+        border-radius: 5px;
+        transition: 0.15s;
+        font-weight: 550;
+        margin-left: 2px;
+        margin-bottom: 18px;
+        font-size: 60px;
+    }
+
+    form input[type=submit]:hover{
+        color: #fff;
+        background-color: #000;
+    }
+
+    .Bandeira {
+        margin-bottom: 30px;
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    legend {
+        font-size: 40px;
+        color: black;
+    }
+
+    #links {
+        float: left;
+        padding-left: 100%;
+        padding-top: 4px;
+    }
+
+    .cabeca {
+        display: flex;
+        padding-top: 4px;
+    }
+
+    .cabeca ul {
+        display: flex;
+        float: left;
+    }
+    
+    .cabeca ul li {
+        font-size: 15px;
+        list-style: none;
+        margin: 0 25px;
+    }
+    
+    .cabeca ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
+    .cabeca ul li a:hover{
+        color: black;
+    }
+    
+}
+
+@media only screen and (min-width: 1024px) {
+    .img-responsive{
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .titulo {
+        /* padding-top: 35px; */
+        /* padding-right: 30px; */
+        text-align: center;
+        margin-top: 5%;
+        font-size: 55px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        color: black;
+    }
+    
+
+    form[id="formulario"]{
+        background: white;
+        max-width: 50%;
+        min-width: 30%;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 5px;
+        padding-bottom: 1%;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        box-shadow: 0 0 3px black;
+        height: 8%;
+        font-weight: bold;
+        display: flex;
+        color: #000;
+        text-align: center
+    }
+
+    form input[type=text],
+    form input[type=password],
+    form input[type=number]{
+        width: 81%;
+        height: 45px;
+        border: 1px solid #ccc;
+        padding-left: 10px;
+        margin: 10px 0;
+        border-radius: 10px;
+        margin-top: 18px;
+        margin-left: 10px;
+        outline: none;
+        background-color: gray;
+        color: black;
+        font-size: 33px;
+    }
+
+    form input[type=submit]{
+        width: 75%;
+        height: 50px;
+        margin-top: 18px;
+        cursor: pointer;
+        font-family:sans-serif;
+        font-size: 15px;
+        background: rgb(219, 243, 0);
+        color: #000;
+        border: 2px solid #000;
+        border-radius: 5px;
+        transition: 0.15s;
+        font-weight: 550;
+        margin-left: 2px;
+        margin-bottom: 18px;
+        
+    }
+
+    #links {
+        float: left;
+        margin-left: 60%;
+        padding-top: 4px;
+    }
+
+    .cabeca {
+        display: flex;
+        padding-top: 4px;
+    }
+
+    .cabeca ul {
+        display: flex;
+        float: left;
+    }
+    
+    .cabeca ul li {
+        font-size: 15px;
+        list-style: none;
+        margin: 0 25px;
+    }
+    
+    .cabeca ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    .cabeca ul li a:hover{
+        color: black;
+    }
+
+    #add-restaurante-Fundo {
+        width: 100%;
+        height: 300vh;
+        background-image: url(../imagens/pratos-fundo.jpg);
+        background-size: cover;
+    }
+    
+}
+
+@media only screen and (min-width: 1024px) and (orientation:portrait) {
+    form[id="formulario"]{
+        background: white;
+        max-width: 50%;
+        min-width: 30%;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 5px;
+        padding-bottom: 1%;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        box-shadow: 0 0 3px black;
+        height: 8%;
+        font-weight: bold;
+        display: flex;
+        color: #000;
+        text-align: center
+    }
+
+    form input[type=text],
+    form input[type=password],
+    form input[type=number]{
+        width: 81%;
+        height: 45px;
+        border: 1px solid #ccc;
+        padding-left: 10px;
+        margin: 10px 0;
+        border-radius: 10px;
+        margin-top: 18px;
+        margin-left: 10px;
+        outline: none;
+        background-color: gray;
+        color: black;
+    }
+
+    form input[type=submit]{
+        width: 75%;
+        height: 50px;
+        margin-top: 18px;
+        cursor: pointer;
+        font-family:sans-serif;
+        font-size: 15px;
+        background: rgb(219, 243, 0);
+        color: #000;
+        border: 2px solid #000;
+        border-radius: 5px;
+        transition: 0.15s;
+        font-weight: 550;
+        margin-left: 2px;
+        margin-bottom: 18px;
+        
+    }
+
+    #links {
+        float: left;    
+        padding-left: 600px;   
+        padding-top: 4px;
+    }
+
+    .cabeca {
+        display: flex;
+        padding-top: 4px;
+    }
+
+    .cabeca ul {
+        margin-left: 250%;
+        display: flex;
+        float: left;
+    }
+
+    .cabeca ul li {
+        font-size: 15px;
+        list-style: none;
+        margin: 0 25px;
+    }
+    
+    .cabeca ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    .cabeca ul li a:hover{
+        color: black;
+    }
+    
+}
+
+@media only screen and (min-width: 1440px)
+{
+    .img-responsive{
+        width: 100%;
+        margin-left: 10px;
+    }
+    
+
+    form[id="formulario"]{
+        background: white;
+        max-width: 50%;
+        min-width: 30%;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 5px;
+        padding-bottom: 1%;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        box-shadow: 0 0 3px black;
+        height: 8%;
+        font-weight: bold;
+        display: flex;
+        color: #000;
+        text-align: center
+    }
+
+    form input[type=text],
+    form input[type=password],
+    form input[type=number]{
+        width: 81%;
+        height: 45px;
+        border: 1px solid #ccc;
+        padding-left: 10px;
+        margin: 10px 0;
+        border-radius: 10px;
+        margin-top: 18px;
+        margin-left: 10px;
+        outline: none;
+        background-color: gray;
+        color: black;
+    }
+
+    form input[type=submit]{
+        width: 75%;
+        height: 50px;
+        margin-top: 18px;
+        cursor: pointer;
+        font-family:sans-serif;
+        font-size: 15px;
+        background: rgb(219, 243, 0);
+        color: #000;
+        border: 2px solid #000;
+        border-radius: 5px;
+        transition: 0.15s;
+        font-weight: 550;
+        margin-left: 2px;
+        margin-bottom: 18px;
+        
+    }
+
+    #links {
+        float: left;
+        padding-left: 1200px;
+        padding-top: 4px;
+    }
+
+    .cabeca {
+        display: flex;
+        padding-top: 4px;
+    }
+
+    .cabeca ul {
+        display: flex;
+        float: left;
+    }
+    
+    .cabeca ul li {
+        font-size: 15px;
+        list-style: none;
+        margin: 0 25px;
+    }
+    
+    .cabeca ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    .cabeca ul li a:hover{
+        color: black;
+    }
+}

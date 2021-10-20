@@ -1,0 +1,6 @@
+{
+    "require": {
+        "jhernandes/ipag-sdk-php": "^1.1",
+        "phpmailer/phpmailer": "^6.5"
+    }
+}

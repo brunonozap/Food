@@ -1,0 +1,1088 @@
+* {
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p{
+	padding-top: 2cm;
+}
+
+h1{
+	text-align: center;
+}
+
+.container-geral{
+    margin: 0;
+}
+
+input[name="criar_usuario"]{
+	background-color: #000;
+	color: white;
+    width: 100%;
+	padding: 1%;
+	text-decoration: none;
+	align-items: center;
+	font-weight: bold;
+}
+
+input[name="criar_usuario"]:hover {
+    background-color: rgb(68, 68, 68);
+}
+
+input[name="criar_restaurante"]{
+	color: #000;
+	background-color: rgb(219, 243, 0);
+	padding: 1%;
+    width: 100%;
+	text-decoration: none;
+	align-items: center;
+	font-weight: bold;
+}
+
+.nav-bar {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 30px;
+    background-color: rgb(15, 59, 15);
+}
+
+.esqueceu_senha {
+    margin-right: 14%;
+    font-size: 200%;
+}
+
+
+.footer-rodape-baixo {
+    margin: 0;
+    padding-left: 5px;
+    height: 100px;
+    width: 360%;
+    background-color: green;
+}
+
+.footer-rodape-baixo img {
+    width: 40px;
+    display: block;
+}
+
+.footer-rodape-baixo span {
+    font-size: 0.8125rem;
+    color: white;
+    padding-left: 2px;
+    font-size: 12px;
+}
+
+/*body{
+    height: 842px;
+    width: 595px;
+    /* to centre page on screen
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+/*[class*="login"]{
+    border: 1px solid grey;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    min-width: 20%;
+    max-width: 50%;
+    min-height: 78vh;
+    max-height: 100vh;
+    height: 25vh;
+    margin: 6% auto;
+    padding: 2%;
+    background-color: white;
+}*/
+
+
+
+.logo{
+    width: 14%;
+    float: right;
+}
+
+.img-responsive {
+    width: 100%;
+    margin-left: 10px;
+}
+
+@media only screen and (min-width: 320px) 
+{   
+    .login{
+        border: 1px solid grey;
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        width: 90%;
+        height: 196vh;
+        margin: 6% auto;
+        margin-left: 6%;
+        padding: 2%;
+        background-color: white;
+    }
+
+    .nav-bar{
+        display: flex;
+        padding-top: 32px;
+        padding-bottom: 37px;
+        padding-left: 30px;
+        background-color: rgb(15, 59, 15);
+    }
+
+    .tamanho_textologin{
+        font-size: 200px;
+        outline: none;
+    }
+
+    input[type=radio] {
+        border: 0px;
+        width: 48px;
+        height: 3em;
+        margin-left: 26px;
+    }
+
+    .esqueceu_senha {
+        margin-right: 7%;
+        font-size: 40px;
+    }
+
+    .cabeca ul li {
+        font-size: 40px;
+        list-style: none;
+        margin: 0 25px;
+    }
+
+    .cabeca ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    #links {
+        float: left;
+        padding-left: 300px;
+        padding-top: 4px;
+    }
+
+    #add-restaurante-Fundo {
+        background-image: url(../imagens/pexels-photo-2923034.jpeg);
+        background-size: cover;
+        border-style: dashed;
+        background-position: center center;
+        width: 360%;
+        height: 400vh;
+    }
+
+    .img-responsive {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    form input[type=text],
+    form input[type=password]{
+        width: 93%;
+        height: 20%;
+        border: 1px solid #ccc;
+        padding-left: 11px;
+        margin: 5% 0;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 32px;
+        outline: none;
+        background-color: rgba(121, 121, 121, 0.329);
+        font-size: 90px;
+    }
+
+    form input[type=submit] {
+        height: 125px;
+        margin-top: 15px;
+        cursor: pointer;
+        font-family: sans-serif;
+        border: 0;
+        border-radius: 5px;
+        transition: 0.15s;
+        font-weight: 550;
+        font-size: 50px;
+    }
+
+    input[name="submit"]{
+        background-color: #4CAF50;
+        color: white;
+        width: 420px;
+        position: unset;
+        text-decoration: none;
+        align-items: center;
+        font-weight: bold;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        left: 18%;
+    }
+
+    .footer-rodape-baixo {
+        margin: 0;
+        padding-left: 5px;
+        height: 100px;
+        background-color: green;
+        width: 300%;
+    }
+}
+
+@media only screen and (min-width: 375px) 
+{   
+    .login{
+        border: 1px solid grey;
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        width: 90%;
+        height: 196vh;
+        margin: 6% auto;
+        margin-left: 6%;
+        padding: 2%;
+        background-color: white;
+    }
+
+    .nav-bar{
+        display: flex;
+        padding-top: 32px;
+        padding-bottom: 37px;
+        padding-left: 30px;
+        background-color: rgb(15, 59, 15);
+    }
+
+    .tamanho_textologin{
+        font-size: 500%;
+        outline: none;
+    }
+
+    input[type=radio] {
+        border: 0px;
+        width: 48px;
+        height: 3em;
+        margin-left: 26px;
+    }
+
+    .esqueceu_senha {
+        text-align: center;
+        margin-right: 10%;
+    }
+
+    .cabeca ul li {
+        font-size: 40px;
+        list-style: none;
+        margin: 0 25px;
+    }
+
+    .cabeca ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    #links {
+        float: left;
+        padding-left: 400px;
+        padding-top: 4px;
+    }
+
+    #add-restaurante-Fundo {
+        background-image: url(../imagens/pexels-photo-2923034.jpeg);
+        background-size: cover;
+        border-style: dashed;
+        background-position: center center;
+        width: 360%;
+        height: 400vh;
+    }
+
+    .img-responsive {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    form input[type=text],
+    form input[type=password]{
+        width: 95%;
+        height: 20%;
+        border: 1px solid #ccc;
+        padding-left: 11px;
+        margin: 5% 0;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 32px;
+        outline: none;
+        background-color: rgba(121, 121, 121, 0.329);
+        font-size: 93px;
+    }
+
+    form input[type=submit] {
+        height: 125px;
+        margin-top: 15px;
+        cursor: pointer;
+        font-family: sans-serif;
+        border: 0;
+        border-radius: 5px;
+        transition: 0.15s;
+        font-weight: 550;
+        font-size: 50px;
+    }
+
+    input[name="submit"]{
+        background-color: #4CAF50;
+        color: white;
+        width: 550px;
+        position: unset;
+        text-decoration: none;
+        align-items: center;
+        font-weight: bold;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        left: 18%;
+    }
+
+    .footer-rodape-baixo {
+        margin: 0;
+        padding-left: 5px;
+        height: 100px;
+        background-color: green;
+        width: 300%;
+    }
+}
+
+@media only screen and (min-width: 425px) 
+{   
+    .login{
+        display: flex;
+        border: 1px solid grey;
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        width: 90%;
+        height: 100vh;
+        margin: 6% auto;
+        margin-left: 6%;
+        padding: 2%;
+        background-color: white;
+    }
+
+    .nav-bar{
+        display: flex;
+        padding-top: 32px;
+        padding-bottom: 37px;
+        padding-left: 30px;
+        background-color: rgb(15, 59, 15);
+    }
+
+    .tamanho_textologin{
+        font-size: 500%;
+        outline: none;
+    }
+
+    input[type=radio] {
+        border: 0px;
+        width: 58px;
+        height: 4em;
+        margin-left: 26px;
+    }
+
+    .esqueceu_senha {
+        margin-right: 46%;
+        font-size: 40px;
+    }
+
+    .cabeca ul li {
+        font-size: 40px;
+        list-style: none;
+        margin: 0 25px;
+    }
+
+    .cabeca ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    #links {
+        float: left;
+        padding-left: 600px;
+        padding-top: 4px;
+    }
+
+    #add-restaurante-Fundo {
+        background-image: url(../imagens/pexels-photo-2923034.jpeg);
+        background-size: cover;
+        border-style: dashed;
+        background-position: center center;
+        width: 360%;
+        height: 400vh;
+    }
+
+    .img-responsive {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    form input[type=text],
+    form input[type=password]{
+        width: 100%;
+        height: 20%;
+        border: 1px solid #ccc;
+        padding-left: 11px;
+        margin: 5% 0;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 32px;
+        outline: none;
+        background-color: rgba(121, 121, 121, 0.329);
+        font-size: 93px;
+    }
+
+    form input[type=submit] {
+        height: 125px;
+        margin-top: 15px;
+        cursor: pointer;
+        font-family: sans-serif;
+        border: 0;
+        border-radius: 5px;
+        transition: 0.15s;
+        font-weight: 550;
+        font-size: 60px;
+    }
+
+    input[name="submit"]{
+        background-color: #4CAF50;
+        color: white;
+        width: 639px;
+        position: unset;
+        text-decoration: none;
+        align-items: center;
+        font-weight: bold;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        font-size: 40px;
+        left: 18%;
+    }
+
+    .footer-rodape-baixo {
+        margin: 0;
+        padding-left: 5px;
+        height: 100px;
+        background-color: green;
+        width: 300%;
+    }
+}
+
+@media only screen and (min-width: 768px) 
+{   
+    .login{
+        border: 1px solid grey;
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        width: 90%;
+        height: 241vh;
+        margin: 6% auto;
+        margin-left: 6%;
+        padding: 2%;
+        background-color: white;
+    }
+
+    .nav-bar{
+        display: flex;
+        padding-top: 32px;
+        padding-bottom: 37px;
+        padding-left: 30px;
+        background-color: rgb(15, 59, 15);
+    }
+
+    .tamanho_textologin{
+        font-size: 500%;
+        outline: none;
+    }
+
+    input[type=radio] {
+        border: 0px;
+        width: 93px;
+        height: 6em;
+        margin-left: 26px;
+    }
+
+    .esqueceu_senha {
+        margin-right: 14%;
+        font-size: 98px;
+    }
+
+    .cabeca ul li {
+        font-size: 38px;
+        list-style: none;
+        margin: 0 25px;
+    }
+
+    .cabeca ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    #links {
+        float: left;
+        padding-left: 300px;
+        padding-top: 4px;
+    }
+
+    #add-restaurante-Fundo {
+        background-image: url(../imagens/pexels-photo-2923034.jpeg);
+        background-size: cover;
+        border-style: dashed;
+        background-position: center center;
+        width: 360%;
+        height: 400vh;
+    }
+
+    .img-responsive {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    form input[type=text],
+    form input[type=password]{
+        width: 100%;
+        height: 20%;
+        border: 1px solid #ccc;
+        padding-left: 11px;
+        margin: 5% 0;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 32px;
+        outline: none;
+        background-color: rgba(121, 121, 121, 0.329);
+        font-size: 140px;
+    }
+
+    form input[type=submit] {
+        height: 207px;
+        margin-top: 15px;
+        cursor: pointer;
+        font-family: sans-serif;
+        border: 0;
+        border-radius: 5px;
+        transition: 0.15s;
+        font-weight: 550;
+        font-size: 63px;
+    }
+
+    input[name="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        width: 924px;
+        position: unset;
+        text-decoration: none;
+        align-items: center;
+        font-weight: bold;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        left: 18%;
+    }
+
+    .footer-rodape-baixo {
+        margin: 0;
+        padding-left: 5px;
+        height: 100px;
+        background-color: green;
+        width: 300%;
+    }
+}
+
+@media only screen and (min-width: 1024px) 
+{   
+    .login{
+        border: 1px solid grey;
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        width: 44%;
+        height: 90vh;
+        margin: 6% auto;
+        margin-top: 2%;
+        margin-left: 30%;
+        padding: 1%;
+        background-color: white;
+    }
+
+    .nav-bar {
+        display: flex;
+        padding-top: 22px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        background-color: rgb(15, 59, 15);
+    }
+   
+    #links {
+        float: left;
+        padding-left: 600px;
+        padding-top: 4px;
+    }
+
+    .tamanho_textologin {
+        font-size: 30px;
+    }
+
+    .logo {
+        width: 1%;
+        float: right;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .link{
+        height: 20vh;
+    }
+
+    .cabeca ul li {
+        font-size: 28px;
+        list-style: none;
+        margin: 0 25px;
+    }
+
+    /*[class*="login"]{
+        border: 1px solid grey;
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        width: 9%;
+        margin: 6% auto;
+        margin-top: 1%;
+        margin-left: 6%;
+        height: 12vh;
+        padding: 1%;
+        background-color: white;
+    }*/
+    
+    form input[type=text],
+    form input[type=password]{
+        width: 100%;
+        height: 10%;
+        border: 1px solid #ccc;
+        padding-left: 10px;
+        margin: 10px 0;
+        border-radius: 10px;
+        margin-top: 10px;
+        outline: none;
+        background-color: rgba(121, 121, 121, 0.329);
+        font-size: 180%;
+    }
+
+    form input[type=submit] {
+        height: 89px;
+        margin-top: 15px;
+        cursor: pointer;
+        font-family: sans-serif;
+        font-size: 35px;
+        border: 0;
+        border-radius: 5px;
+        transition: 0.15s;
+        font-weight: 550;
+    }
+
+    input[name="submit"]{
+        background-color: #4CAF50;
+        color: white;
+        width: 255px;
+        position: unset;
+        text-decoration: none;
+        align-items: center;
+        font-weight: bold;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        left: 18%;
+    }
+
+    .esqueceu_senha {
+        margin-right: 8%;
+        font-size: 18px;
+    }
+
+    input[type=radio] {
+        border: 0px;
+        width: 32px;
+        height: 2em;
+        margin-left: 26px;
+    }
+
+    .img-responsive {
+        width: 1900%;
+        margin-left: 10px;
+    }
+
+    .footer-rodape-baixo {
+        margin: 0;
+        width: 100%;
+        padding-left: 5px;
+        height: 100px;
+        background-color: green;
+    }
+
+    #add-restaurante-Fundo {
+        background-image: url(../imagens/pexels-photo-2923034.jpeg);
+        background-size: cover;
+        border-style: dashed;
+        background-position: center center;
+        width: 100%;
+        height: 130vh;
+    }
+}
+
+@media only screen and (min-width: 1440px) and (orientation: portrait)
+{   
+    .login{
+        border: 1px solid grey;
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        width: 80%;
+        height: 40vh;
+        margin: 6% auto;
+        margin-top: 20%;
+        margin-left: 10%;
+        padding: 1%;
+        background-color: white;
+    }
+
+    .nav-bar {
+        display: flex;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 30px;
+        background-color: rgb(15, 59, 15);
+    }
+   
+    #links {
+        float: left;
+        padding-left: 600px;
+        padding-top: 4px;
+    }
+
+    .tamanho_textologin {
+        font-size: 140px;
+    }
+
+    .logo {
+        width: 1%;
+        float: right;
+    }
+
+    /*[class*="login"]{
+        border: 1px solid grey;
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        width: 9%;
+        margin: 6% auto;
+        margin-top: 1%;
+        margin-left: 6%;
+        height: 12vh;
+        padding: 1%;
+        background-color: white;
+    }*/
+    
+    form input[type=text],
+    form input[type=password]{
+        width: 100%;
+        height: 15%;
+        border: 1px solid #ccc;
+        padding-left: 10px;
+        margin: 10px 0;
+        border-radius: 10px;
+        margin-top: 10px;
+        outline: none;
+        background-color: rgba(121, 121, 121, 0.329);
+        font-size: 180%;
+    }
+
+    form input[type=submit] {
+        height: 191px;
+        margin-top: 15px;
+        cursor: pointer;
+        font-family: sans-serif;
+        font-size: 60px;
+        border: 0;
+        border-radius: 5px;
+        transition: 0.15s;
+        font-weight: 550;
+    }
+
+    input[name="submit"]{
+        background-color: #4CAF50;
+        color: white;
+        width: 465px;
+        height: 50%;
+        position: unset;
+        text-decoration: none;
+        align-items: center;
+        font-weight: bold;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        left: 18%;
+    }
+
+    .esqueceu_senha {
+        margin-right: 5%;
+        font-size: 58px;
+    }
+
+    input[type=radio] {
+        border: 0px;
+        width: 42px;
+        height: 3em;
+        margin-left: 26px;
+    }
+
+    .img-responsive {
+        width: 2073%;
+        margin-left: 10px;
+    }
+
+    .footer-rodape-baixo {
+        margin: 0;
+        width: 100%;
+        padding-left: 5px;
+        height: 100px;
+        background-color: green;
+    }
+
+    .cabeca ul li {
+        font-size: 52px;
+        list-style: none;
+        margin: 0 25px;
+    }
+
+
+    #add-restaurante-Fundo {
+        background-image: url(../imagens/pexels-photo-2923034.jpeg);
+        background-size: cover;
+        border-style: dashed;
+        background-position: center center;
+        width: 100%;
+        height: 130vh;
+    }
+}
+
+@media only screen and (min-width: 1440px) and (orientation: landscape)
+{   
+    .login{
+        border: 1px solid grey;
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        width: 50%;
+        height: 65vh;
+        margin: 6% auto;
+        margin-top: 2%;
+        margin-left: 25%;
+        padding: 1%;
+        background-color: white;
+    }
+   
+    #links {
+        float: left;
+        padding-left: 600px;
+        padding-top: 4px;
+    }
+
+    .tamanho_textologin {
+        font-size: 40px;
+    }
+
+    .logo {
+        width: 10%;
+        float: right;
+    }
+
+    /*[class*="login"]{
+        border: 1px solid grey;
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        width: 9%;
+        margin: 6% auto;
+        margin-top: 1%;
+        margin-left: 6%;
+        height: 12vh;
+        padding: 1%;
+        background-color: white;
+    }*/
+    
+    form input[type=text],
+    form input[type=password]{
+        width: 100%;
+        height: 9%;
+        border: 1px solid #ccc;
+        padding-left: 10px;
+        margin: 10px 0;
+        border-radius: 10px;
+        margin-top: 10px;
+        outline: none;
+        background-color: rgba(121, 121, 121, 0.329);
+        font-size: 100%;
+    }
+
+    form input[type=submit] {
+        height: 110px;
+        margin-top: 15px;
+        cursor: pointer;
+        font-family: sans-serif;
+        font-size: 35px;
+        border: 0;
+        border-radius: 5px;
+        transition: 0.15s;
+        font-weight: 550;
+    }
+
+    input[name="submit"]{
+        background-color: #4CAF50;
+        color: white;
+        width: 250px;
+        position: unset;
+        text-decoration: none;
+        align-items: center;
+        font-weight: bold;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        left: 18%;
+    }
+
+    .esqueceu_senha {
+        margin-right: 30%;
+        font-size: 28px;
+    }
+
+    input[type=radio] {
+        border: 0px;
+        width: 42px;
+        height: 3em;
+        margin-left: 26px;
+    }
+
+    .img-responsive {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .footer-rodape-baixo {
+        margin: 0;
+        width: 100%;
+        padding-left: 5px;
+        height: 100px;
+        background-color: green;
+    }
+
+    #add-restaurante-Fundo {
+        background-image: url(../imagens/pexels-photo-2923034.jpeg);
+        background-size: cover;
+        border-style: dashed;
+        background-position: center center;
+        width: 100%;
+        height: 130vh;
+    }
+
+    input[name="criar_usuario"]{
+        background-color: #000;
+        color: white;
+        width: 100%;
+        padding: 1%;
+        text-decoration: none;
+        align-items: center;
+        font-weight: bold;
+    }
+
+    input[name="criar_usuario"]:hover {
+        background-color: rgb(68, 68, 68);
+    }
+
+    input[name="criar_restaurante"]{
+        color: #000;
+        background-color: rgb(219, 243, 0);
+        padding: 1%;
+        width: 100%;
+        text-decoration: none;
+        align-items: center;
+        font-weight: bold;
+    }
+}
+
+
+
+
+.cabeca {
+	display: flex;
+    padding-top: 4px;
+}
+.cabeca ul {
+	display: flex;
+    float: left;
+}
+
+.cabeca ul li a:hover{
+	color: #4CAF50;
+}
+
+
+.form {
+	max-width: 780px;
+	display: flex;
+}
+
+form p {
+    font-family:sans-serif;
+    font-size: 25px;
+}
+
+
+.text-center {
+    color: black;
+    font-weight: bold;
+}
+
+.text-p {
+	float: left;
+	height: 20px;
+    color: white;
+    align-items: center;
+    font-weight: bold;
+}
+
+.radio_esqueceu{
+    border: 2px solid black;
+}
+
+.radio_esqueceu::after{
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/*input[name="submit"]{
+	background-color: #4CAF50;
+    color: white;
+    width: 420px;
+    position: unset;
+    text-decoration: none;
+    align-items: center;
+    font-weight: bold;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    left: 18%;
+}*/
+input[name="submit"]:hover {
+    background-color: rgb(68, 68, 68);
+}
+
+
+
+input[name="criar_restaurante"]:hover {
+    color: #fff;
+    background-color: rgb(68, 68, 68);
+}
+        
+.success{
+	color: #2ed579;
+}
+
+.error{
+	color: #ff4757;
+}
+	
+  

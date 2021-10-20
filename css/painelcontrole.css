@@ -1,0 +1,1148 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	height: 100vh;
+	margin: 0 auto;
+	font-family: 'Raleway', Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+.button{
+	background-color: #4CAF50; /* Green */
+	color: black;
+}
+
+.button:hover{
+	color:white;
+}
+
+.btn-green{
+	background-color: #4CAF50; /* Green */
+	color: white;
+	padding: 1%;
+	text-decoration: none;
+	align-items: center;
+	font-weight: bold;
+}
+
+.btn-primary{
+	background-color: #4CAF50;
+	padding: 1%;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.btn-secondary{
+	background-color: #4CAF50;
+}
+
+.td{
+	text-align: center;
+}
+
+.p{
+	padding-top: 2cm;
+}
+
+h1{
+	text-align: center;
+    color: black; 
+	width: 0; 
+}
+
+/*.imagem_bemvindo{
+	width: 3%;
+    margin-left: 10px;
+    position: fixed;
+}*/	
+
+.bem_vindo {
+    margin-top: 50px;
+    margin-left: 350px;
+}
+
+.hero p a:hover{
+	color: yellow;
+}
+
+.bg {
+	display: flex;
+	height: 100%;
+	padding-bottom: 20px;
+}
+
+.left img {
+	position: absolute;
+	width: 400px;
+	top: 0;
+	left: 0;
+}
+
+.left .svg {
+	width: 160px;
+	height: 180px;
+	left: 71px;
+	top: 257px;
+}
+
+.right img {
+	position: absolute;
+	width: 240px;
+	top: 204px;
+	right: 0;
+}
+
+.right .svg {
+	width: 198px;
+	height: 172px;
+	right: 138px;
+	top: 106px;
+	transform: rotate(-8deg);
+}
+
+.cuisines-list {
+    width: 100%;
+    max-width: 1363px !important;
+    margin: auto;
+    padding: 0 30px;
+    margin-bottom: 64px;
+    margin-top: 20px;
+}
+
+.carousel {
+	width: 100px;
+	margin: 0 auto;
+}
+
+.content {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.content h2 {
+	font-size: 2.5rem;
+	color: #3e3e3e;
+	font-weight: 600;
+	margin: 20px 0;
+}
+
+.content h2 span {
+	color: #4CAF50;
+}
+.content p {
+	color: #3e3e3e;
+	font-size: 1.25rem;
+	font-weight: 500;
+}
+
+.form {
+	width: 100%;
+	max-width: 780px;
+	display: flex;
+}
+
+.form .search {
+	width: 100%;
+	max-width: 650px;
+	background: #fff;
+	height: 50px;
+	border-radius: 4px;
+	margin-right: 20px;
+	display: flex;
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.container-geral{
+    margin: 0;
+}
+
+#add-restaurante-Fundo {
+    width: 100%;
+    height: 150vh;
+    /*background-image: url('../imagens/pratos-fundo.jpg');*/
+    background-size: cover;
+}
+
+#text{
+	color: white;
+}
+
+/*.nav-bar {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 30px;
+	background-color: rgb(15, 59, 15);
+}*/
+
+.img-responsive {
+    width: 50%;
+    margin-left: 10px;
+}
+
+.cabeca {
+	display: flex;
+    padding-top: 4px;
+}
+.cabeca ul {
+	display: flex;
+    float: left;
+}
+/*.cabeca ul li {
+    font-size: 15px;
+	list-style: none;
+	margin: 0 25px;
+}*/
+.cabeca ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.cabeca ul li a:hover{
+	color: #000;
+}
+
+/*#links {
+    float: left;
+    padding-left: 80px;
+    padding-top: 4px;
+	color: white;
+}*/
+
+.footer-rodape-baixo {
+	margin: 0;
+	padding-left: 5px;
+	height: 100px;
+	background-color: rgb(15, 59, 15);
+}
+
+@media only screen and (max-width: 320px) and (orientation: portrait)
+{
+	.nav-bar {
+		width: 100%;
+		display: flex;
+		padding-top: 30px;
+		background-color: rgb(15, 59, 15);
+	}
+
+	.table-full tr td {
+		padding-top: 2%;
+		border-left: 10px;
+		text-align: center;
+		width: 350px;
+		vertical-align: middle;
+		font-size: 50px;
+	}
+
+	h1 {
+		text-align: center;
+		height: 55px;
+		margin-top: 50px;
+		margin-bottom: 25px;
+		font-size: 81px;
+		margin-bottom: 10%;
+	}
+
+	.logo {
+		width: 3%;
+		float: left;
+	}
+
+	.bem_vindo {
+		margin-top: 50px;
+		margin-left: 20px;
+	}
+
+	#links {
+		float: left;
+		display: table-row-group;
+		margin-top: 17%;
+		color: white;
+	}
+	
+	.img-responsive {
+		width: 2000%;
+		margin-left: 10px;
+	}
+
+	.imagem_bemvindo {
+		width: 25%;
+		margin-left: 202px;
+		position: absolute;
+	}
+
+	/*h1 {
+		color: black;
+		font-size: 80px;
+		margin-left: -168px;
+	}*/
+
+	h1 {
+		color: black;
+		font-size: 48px;
+	}
+	
+	.cabeca ul li {
+		font-size: 100px;
+		list-style: none;
+		margin: 0 25px;
+	}
+
+	.footer-rodape-baixo {
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		margin-top: 60%;
+		color: white;
+		text-align: center;
+	}
+	
+	.footer-rodape-baixo img {
+		width: 40px;
+		display: block;
+	}
+	
+	.footer-rodape-baixo span {
+		font-size: 0.8125rem;
+		color: white;
+		padding-left: 2px;
+	}
+}
+
+@media only screen and (max-width: 375px) and (orientation: portrait)
+{
+	.nav-bar {
+		width: 100%;
+		display: flex;
+		padding-top: 30px;
+		padding-left: 30px;
+		background-color: rgb(15, 59, 15);
+	}
+
+	.logo {
+		width: 1%;
+		float: left;
+	}
+
+	.bem_vindo {
+		margin-top: 50px;
+		margin-left: 20px;
+	}
+
+	#links {
+		float: left;
+		display: table-row-group;
+		padding-left: 0%;
+		margin-top: 22%;
+		padding-top: 4px;
+		color: white;
+	}
+
+	.img-responsive {
+		width: 5000%;
+		margin-left: 10px;
+	}
+
+	.imagem_bemvindo {
+		width: 30%;
+		margin-left: 200px;
+		position: absolute;
+	}
+
+	/*h1 {
+		color: black;
+		font-size: 80px;
+		margin-left: -97px;
+	}*/
+
+	h1 {
+		color: black;
+		font-size: 43px;
+	}
+	
+	.cabeca ul li {
+		font-size: 55px;
+		list-style: none;
+		margin: 0 25px;
+	}
+
+	.footer-rodape-baixo {
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		margin-top: 24%;
+		color: white;
+		text-align: center;
+	}
+	
+	.footer-rodape-baixo img {
+		width: 40px;
+		display: block;
+	}
+	
+	.footer-rodape-baixo span {
+		font-size: 0.8125rem;
+		color: white;
+		padding-left: 2px;
+	}
+}
+
+@media only screen and (max-width: 425px) and (orientation: portrait)
+{
+	.nav-bar {
+		width: 100%;
+		display: flex;
+		padding-top: 30px;
+		padding-left: 30px;
+		background-color: rgb(15, 59, 15);
+	}
+
+	.logo {
+		width: 1%;
+		float: left;
+	}
+
+	.bem_vindo {
+		margin-top: 50px;
+		margin-left: 20px;
+	}
+
+	#links {
+		float: left;
+		display: table-row-group;
+		padding-left: 0%;
+		margin-top: 22%;
+		padding-top: 4px;
+		color: white;
+	}
+
+	.img-responsive {
+		width: 5000%;
+		margin-left: 10px;
+	}
+
+	.imagem_bemvindo {
+		width: 30%;
+		margin-left: 200px;
+		position: absolute;
+	}
+
+	/*h1 {
+		color: black;
+		font-size: 80px;
+		margin-left: -97px;
+	}*/
+
+	h1 {
+		color: black;
+		font-size: 43px;
+	}
+	
+	.cabeca ul li {
+		font-size: 55px;
+		list-style: none;
+		margin: 0 25px;
+	}
+
+	.footer-rodape-baixo {
+		left: 0;
+		bottom: 0;
+		width: 98%;
+		margin-top: 24%;
+		color: white;
+		text-align: center;
+	}
+	
+	.footer-rodape-baixo img {
+		width: 40px;
+		display: block;
+	}
+	
+	.footer-rodape-baixo span {
+		font-size: 0.8125rem;
+		color: white;
+		padding-left: 2px;
+	}
+}
+
+@media only screen and (max-width: 768px) and (orientation: portrait)
+{
+	.nav-bar {
+		width: 100%;
+		display: flex;
+		padding-top: 30px;
+		background-color: rgb(15, 59, 15);
+	}
+
+	.bem_vindo {
+		margin-top: 50px;
+		margin-bottom: 28px;
+		margin-left: 40%;
+	}
+
+	.logo {
+		width: 35%;
+		float: left;
+	}
+
+	#links {
+		float: left;
+		display: table-row-group;
+		padding-left: 10%;
+		padding-top: 4px;
+		color: white;
+	}
+
+	.img-responsive {
+		width: 100%;
+		margin-left: 10px;
+	}
+
+	.imagem_bemvindo {
+		width: 30%;
+		margin-left: -33%;
+		position: absolute;
+	}
+
+	/*h1 {
+		color: black;
+		font-size: 80px;
+		margin-left: -97px;
+	}*/
+
+	h1 {
+		color: black;
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+	
+	.cabeca ul li {
+		font-size: 51px;
+		list-style: none;
+		margin: 0 25px;
+	}
+
+	.footer-rodape-baixo {
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		margin-top: 48%;
+		color: white;
+		text-align: center;
+	}
+	
+	.footer-rodape-baixo img {
+		width: 40px;
+		display: block;
+	}
+	
+	.footer-rodape-baixo span {
+		font-size: 0.8125rem;
+		color: white;
+		padding-left: 2px;
+	}
+}
+
+@media only screen and (min-width: 1024px) and (orientation: landscape)
+{
+	.nav-bar {
+		width: 100%;
+		display: flex;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		padding-left: 5px;
+		background-color: rgb(15, 59, 15);
+	}	
+
+	.logo {
+		margin-right: 0%;
+	}
+
+	#links {
+		float: left;
+		display: flex;
+		margin-top: 2%;
+		color: white;
+	}
+
+	.img-responsive {
+		width: 50%;
+		margin-top: 4%;
+	}
+
+	.imagem_bemvindo {
+		width: 6%;
+		margin-left: -100px;
+		position: absolute;
+	}
+
+	.bem_vindo {
+		margin-top: 50px;
+		margin-left: 45%;
+	}
+
+	/*h1 {
+		color: black;
+		font-size: 80px;
+		margin-left: -97px;
+	}*/
+
+	h1 {
+		color: black;
+		font-size: 30px;
+	}
+	
+	.cabeca ul li {
+		font-size: 27px;
+		list-style: none;
+		margin: -10px 20px;
+	}
+
+	.footer-rodape-baixo {
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		color: white;
+		text-align: center;
+	}
+	
+	.footer-rodape-baixo img {
+		width: 40px;
+		display: block;
+	}
+	
+	.footer-rodape-baixo span {
+		font-size: 0.8125rem;
+		color: white;
+		padding-left: 2px;
+	}
+}
+
+@media only screen and (min-width: 1024px) and (orientation: portrait)
+{
+	.nav-bar {
+		width: 100%;
+		display: flex;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		padding-left: 5px;
+		background-color: rgb(15, 59, 15);
+	}	
+
+	.logo {
+		margin-right: 0%;
+	}
+
+	#links {
+		float: left;
+		display: flex;
+		padding-left: 1%;
+		margin-top: 2%;
+		color: white;
+	}
+
+	.img-responsive {
+		width: 50%;
+		margin-top: 4%;
+	}
+
+	.imagem_bemvindo {
+		width: 30%;
+		margin-left: -160px;
+		position: absolute;
+	}
+
+	.bem_vindo {
+		margin-top: 50px;
+		margin-bottom: 28px;
+		margin-left: 231px;
+	}
+
+	/*h1 {
+		color: black;
+		font-size: 80px;
+		margin-left: -97px;
+	}*/
+
+	h1 {
+		color: black;
+		font-size: 30px;
+	}
+	
+	.cabeca ul li {
+		font-size: 27px;
+		list-style: none;
+		margin: -10px 20px;
+	}
+
+	.footer-rodape-baixo {
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		color: white;
+		text-align: center;
+	}
+	
+	.footer-rodape-baixo img {
+		width: 40px;
+		display: block;
+	}
+	
+	.footer-rodape-baixo span {
+		font-size: 0.8125rem;
+		color: white;
+		padding-left: 2px;
+	}
+}
+
+@media only screen and (min-width: 1440px) and (orientation: landscape)
+{
+	.nav-bar {
+		width: 100%;
+		display: flex;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		padding-left: 5px;
+		background-color: rgb(15, 59, 15);
+	}	
+
+	#links {
+		float: left;
+		display: flex;
+		padding-left: 1%;
+		padding-top: 4px;
+		color: white;
+		width: 40%;
+		margin-right: 10%;
+	}
+
+	.logo{
+		margin-right: 5%;
+	}
+
+	.img-responsive {
+		width: 25%;
+		margin-top: 2%;
+	}
+
+	.imagem_bemvindo {
+		width: 6%;
+		margin-left: -150px;
+		position: absolute;
+	}
+
+	.bem_vindo {
+		margin-top: 50px;
+		margin-left: 750px;
+	}
+
+	/*h1 {
+		color: black;
+		font-size: 80px;
+		margin-left: -97px;
+	}*/
+
+	h1 {
+		color: black;
+		font-size: 60px;
+	}
+	
+	.cabeca ul li {
+		font-size: 15px;
+		list-style: none;
+		margin: -10px 25px;
+	}
+
+	.footer-rodape-baixo {
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		color: white;
+		text-align: center;
+	}
+	
+	.footer-rodape-baixo img {
+		width: 40px;
+		display: block;
+	}
+	
+	.footer-rodape-baixo span {
+		font-size: 0.8125rem;
+		color: white;
+		padding-left: 2px;
+	}
+}
+
+@media only screen and (min-width: 1440px) and (orientation: portrait)
+{
+	.nav-bar {
+		width: 100%;
+		display: flex;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		padding-left: 5px;
+		background-color: rgb(15, 59, 15);
+	}	
+
+	.logo {
+		margin-right: 10%;
+	}
+
+	#links {
+		float: left;
+		display: flex;
+		padding-left: 1%;
+		padding-top: 4px;
+		color: white;
+	}
+
+	.img-responsive {
+		width: 100%;
+		margin-top: 10%;
+	}
+
+	.imagem_bemvindo {
+		width: 30%;
+		margin-left: -112px;
+	}
+
+	.bem_vindo {
+		margin-top: 50px;
+		margin-bottom: 28px;
+		margin-left: 180px;
+	}
+
+	/*h1 {
+		color: black;
+		font-size: 80px;
+		margin-left: -97px;
+	}*/
+
+	h1 {
+		color: black;
+		font-size: 30px;
+	}
+	
+	.cabeca ul li {
+		font-size: 27px;
+		list-style: none;
+		margin: -10px 25px;
+	}
+
+	.footer-rodape-baixo {
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		color: white;
+		text-align: center;
+	}
+	
+	.footer-rodape-baixo img {
+		width: 40px;
+		display: block;
+	}
+	
+	.footer-rodape-baixo span {
+		font-size: 0.8125rem;
+		color: white;
+		padding-left: 2px;
+	}
+}
+
+.form .search img {
+	width: 26px;
+	margin: 0 20px;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+.form .search input::placeholder {
+	font-weight: 400;
+	color: #a6a6a6;
+}
+
+.form button {
+	width: 210px;
+	background: #4CAF50;
+	color: #fff;
+	font-weight: 400;
+	border: 0;
+	border-radius: 4px;
+}
+
+.form button:hover {
+	background: #4CAF50;
+}
+
+.tags {
+	margin: 30px 0;
+}
+
+.success{
+	color: #2ed579;
+}
+
+.error{
+	color: #ff4757;
+}
+
+.tags span {
+	font-size: 0.875rem;
+	font-weight: 400;
+	color: #818181;
+	border: 1px solid #ccc;
+	padding: 4px;
+	border-radius: 3px;
+	margin: 6px;
+}
+
+.banner {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+
+.banner img {
+	width: 100%;
+	max-width: 390px;
+	margin: 0 10px;
+	transition: 0.2s;
+}
+.banner img:hover {
+	transform: scale(1.02);
+}
+
+.footer {
+	margin: 20px;
+	border-top: 1px solid #dcdcdc;
+	display: flex;
+	padding: 20px 0;
+}
+
+.footer img {
+	width: 50px;
+}
+
+.footer span {
+	font-size: 0.8125rem;
+	color: #818181;
+	margin: 0 20px;
+}
+
+/*.footer-rodape-baixo {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;;
+	color: white;
+	text-align: center;
+}
+
+.footer-rodape-baixo img {
+	width: 40px;
+	display: block;
+}
+
+.footer-rodape-baixo span {
+	font-size: 0.8125rem;
+	color: white;
+	padding-left: 2px;
+}*/
+
+.table-full{
+	width: 100%;
+}
+
+table tr th{
+	border-bottom: 1px solid black;
+	padding: 1%;
+}
+
+.table-full tr td p a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 3px solid green;
+}
+
+.section h3{
+	font-family: "SulSans", Helvetica, sans-serif;
+	font-size: 1.25rem;
+	font-weight: 500;
+	margin-left: 66px;
+	margin-top: 52px;
+}
+
+
+/* CSS for navbar section */
+
+/*.logo{
+    width: 50%;
+    float: left;
+}*/
+
+/* CSS for Food Menu */
+.food-menu{
+    background-color: #ececec;
+    padding: 4% 0;
+}
+.food-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+
+/* CSS for Social */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* for Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+/* LOGIN */
+.login{
+    border: 1px solid grey;
+    width: 30%;
+    margin: 10% auto;
+    padding: 2%;
+}
+
+/* ENTRAR */
+
+
+		form p {
+			font-family:sans-serif;
+			color: #717171;
+			font-size: 25px;
+			text-align: center;
+		}
+        form input[type=text],
+        form input[type=password]{
+            width: 100%;
+            height: 45px;
+            border: 1px solid #ccc;
+            padding-left: 10px;
+            margin: 10px 0;
+            border-radius: 10px;
+			margin-top: 20px;
+        }
+
+        form input[type=submit]{
+            width: 100%;
+            height: 50px;
+			margin-top: 20px;
+            cursor: pointer;
+			font-family:sans-serif;
+			font-size: 15px;
+            background: #4CAF50;
+            color: white;
+            border: 0;
+            border-radius: 5px;
+            transition: 0.15s;
+			font-weight: 550;
+        }
+		form input[type=submit-2]{
+            width: 100%;
+            height: 50px;
+			margin-top: 20px;
+			text-align: center;
+            cursor: pointer;
+			font-family:sans-serif;
+			font-size: 15px;
+            background: #ffffff;
+            color: #717171;
+            border: 0;
+            border-radius: 5px;
+            transition: 0.15s;
+			font-weight: 550;
+			box-shadow: 0 0 3px #717171;
+        }
+		form input[type=submit-3]{
+            width: 100%;
+            height: 50px;
+			margin-top: 20px;
+			text-align: center;
+            cursor: pointer;
+			font-family:sans-serif;
+			font-size: 15px;
+            background: #ffffff;
+            color: #717171;
+            border: 0;
+            border-radius: 5px;
+            transition: 0.15s;
+			font-weight: 550;
+			box-shadow: 0 0 3px #717171;
+        }
+        form input[type=submit]:hover{
+            background-color: #4CAF50;
+        }
+		form input[type=submit-2]:hover{
+            color: #414143;
+        }
+		form input[type=submit-3]:hover{
+            background-color: #4CAF50;
+        }
+        form input[type=text]:focus{
+            outline: 0;
+        }
+        form input[type=password]:focus{
+            outline: 0;
+        }
+
+  

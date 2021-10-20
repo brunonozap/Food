@@ -1,0 +1,593 @@
+/* CSS for All */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-geral{
+    margin: 0;
+}
+#add-restaurante-Fundo {
+    width: 100%;
+    height: 150vh;
+    background-image: url('../imagens/pratos-fundo.jpg');
+    background-size: cover;
+}
+
+.formulario-geral {
+    padding-top: 25px;
+}
+
+.taxa_entrega{
+    margin-left: 110px;
+    margin-bottom: 20px;
+}
+
+.margem_espaçamento{
+    margin-top: 18px;
+}
+
+.texto_imagem{
+    padding-left: 98px;
+
+}
+
+.distanciamento_img1{
+    margin-bottom: 23px;
+}
+
+.distanciamento_img2{
+    margin-top: 23px;
+}
+
+.logo{
+    width: 14%;
+    float: right;
+}
+.img-responsive{
+    width: 100%;
+    margin-left: 10px;
+}
+
+.titulo {
+    padding-top: 35px;
+    padding-left: 10px;
+    text-align: center;
+    color: black;
+}
+
+.cabeca {
+	display: flex;
+    padding-top: 4px;
+}
+.cabeca ul {
+	display: flex;
+    float: left;
+}
+.cabeca ul li {
+    font-size: 15px;
+	list-style: none;
+	margin: 0 25px;
+}
+.cabeca ul li a {
+	text-decoration: none;
+	color: #fff;
+    font-weight: bold;
+}
+
+.cabeca ul li a:hover{
+	color: #4CAF50;
+}
+
+.error{
+	color: #ff4757;
+}
+
+        form[id="formulario"]{
+            background: white;
+            width: 450px;
+            margin-left: 34%;
+            margin-top: 40px;
+			padding-left: 16px;
+            padding-right: 15px;
+			padding-top: 18px;
+            border-radius: 0px 0px 20px 20px;
+			/*box-shadow: 0 0 3px black;*/
+            height: 556pt;
+            font-weight: bold;
+            display: block;
+            color: #000;
+        }
+
+        form input[type=text],
+        form input[type=password]{
+            width: 110%;
+            height: 45px;
+            border: 1px solid #ccc;
+            padding-left: 10px;
+            /*margin: 10px 40px;*/
+            margin-right: 40px;
+            border-radius: 10px;
+			/*margin-top: 18px;*/
+            margin-left: 45px;
+            outline: none;
+            background: rgb(218 218 218);
+        }
+
+        form input[type=text]::placeholder,
+        form input[type=password]::placeholder{
+            color: gray;
+        }
+
+        form input[type=submit]{
+            width: 60%;
+            height: 50px;
+			margin-top: 4px;
+            cursor: pointer;
+			font-family:sans-serif;
+			font-size: 15px;
+            background: rgb(102, 212, 130);
+            color: rgb(24, 105, 24);
+            border-radius: 5px;
+            transition: 0.15s;
+			font-weight: 550;
+            margin-left: 97px;
+            border: none;          
+        }
+
+        form input[type=submit]:hover{
+            color: #fff;
+            background-color: #000;
+        }
+
+        input[type="file"] {
+            display: none;
+        }
+
+        label[for="arquivo"]{
+            padding: 8px;
+            margin-left: -80px;
+            background-color: rgba(93, 189, 90, 0.99);
+            color: rgb(24, 105, 24);
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        label[for="arquivo"]:hover{
+            color: #fff;
+            background-color: #000;
+        }
+        table[class="tbl-30"] {
+            padding-top: 10px;
+            padding-left: 32px;
+        }
+
+        /*.footer-rodape-baixo {
+            margin: 0;
+            padding-left: 5px;
+            height: 100px;
+            background: rgb(15, 59, 15);
+        }
+        
+        .footer-rodape-baixo img {
+            width: 40px;
+            display: block;
+        }
+        
+        .footer-rodape-baixo span {
+            font-size: 0.8125rem;
+            color: white;
+            padding-left: 2px;
+            font-size: 12px;
+        }*/
+
+@media only screen and (min-width: 320px) 
+{
+    .nav-bar {
+        width: 100%;
+        display: flex;
+        padding-top: 30px;
+        background: rgb(15, 59, 15);
+    }
+
+    #links {
+        float: left;
+        padding-top: 55px;
+    }
+
+    .img-responsive {
+        width: 300%;
+        margin-left: 10px;
+    }
+
+    form[id="formulario"] {
+        background: white;
+        width: 75%;
+        margin-left: 11%;
+        margin-top: 40px;
+        padding-left: 16px;
+        padding-right: 15px;
+        padding-top: 18px;
+        border-radius: 0px 0px 20px 20px;
+        /* box-shadow: 0 0 3px black; */
+        height: 580pt;
+        font-weight: bold;
+        display: block;
+        color: #000;
+    }
+    form input[type=text], form input[type=password] {
+        width: 86%;
+        height: 45px;
+        border: 1px solid #ccc;
+        padding-left: 0px;
+        margin-right: 40px;
+        border-radius: 10px;
+        /* margin-top: 18px; */
+        margin-left: 0px;
+        outline: none;
+        background: rgb(218 218 218);
+    }
+
+    form input[type=submit] {
+        width: 60%;
+        height: 50px;
+        margin-top: 4px;
+        cursor: pointer;
+        font-family: sans-serif;
+        font-size: 15px;
+        background: rgb(102, 212, 130);
+        color: rgb(24, 105, 24);
+        border-radius: 5px;
+        transition: 0.15s;
+        font-weight: 550;
+        margin-left: 67px;
+        border: none;
+    }
+
+    .texto_imagem {
+        padding-left: 4px;
+    }
+
+    label[for="arquivo"] {
+        padding: 8px;
+        margin-left: -144px;
+        background-color: rgba(93, 189, 90, 0.99);
+        color: rgb(24, 105, 24);
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .taxa_entrega {
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+    .footer-rodape-baixo {
+        margin: 0;
+        padding-left: 5px;
+        height: 100px;
+        background: rgb(15, 59, 15);
+    }
+
+    .footer-rodape-baixo img {
+        width: 50%;
+        display: block;
+    }
+
+    .footer-rodape-baixo span {
+        font-size: 0.8125rem;
+        color: white;
+        padding-left: 2px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 375px) 
+{
+    .nav-bar {
+        width: 100%;
+        display: flex;
+        padding-top: 30px;
+        background: rgb(15, 59, 15);
+    }
+
+    #links {
+        float: left;
+        padding-top: 55px;
+    }
+
+    .img-responsive {
+        width: 300%;
+        margin-left: 10px;
+    }
+
+    form[id="formulario"] {
+        background: white;
+        width: 75%;
+        margin-left: 11%;
+        margin-top: 40px;
+        padding-left: 16px;
+        padding-right: 15px;
+        padding-top: 18px;
+        border-radius: 0px 0px 20px 20px;
+        /* box-shadow: 0 0 3px black; */
+        height: 580pt;
+        font-weight: bold;
+        display: block;
+        color: #000;
+    }
+   
+    form input[type=text], form input[type=password] {
+        width: 100%;
+        height: 45px;
+        border: 1px solid #ccc;
+        padding-left: 8px;
+        border-radius: 10px;
+        /* margin-top: 18px; */
+        margin-left: 0px;
+        outline: none;
+        background: rgb(218 218 218);
+    }
+
+    form input[type=submit] {
+        width: 60%;
+        height: 50px;
+        margin-top: 4px;
+        cursor: pointer;
+        font-family: sans-serif;
+        font-size: 15px;
+        background: rgb(102, 212, 130);
+        color: rgb(24, 105, 24);
+        border-radius: 5px;
+        transition: 0.15s;
+        font-weight: 550;
+        margin-left: 46px;
+        border: none;
+    }
+
+    .texto_imagem {
+        padding-left: 4px;
+    }
+
+    label[for="arquivo"] {
+        padding: 8px;
+        margin-left: -144px;
+        background-color: rgba(93, 189, 90, 0.99);
+        color: rgb(24, 105, 24);
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .taxa_entrega {
+        margin-left: 13%;
+        margin-bottom: 5%;
+    }
+
+    .footer-rodape-baixo {
+        margin: 0;
+        padding-left: 5px;
+        height: 100px;
+        background: rgb(15, 59, 15);
+    }
+
+    .footer-rodape-baixo img {
+        width: 50%;
+        display: block;
+    }
+
+    .footer-rodape-baixo span {
+        font-size: 0.8125rem;
+        color: white;
+        padding-left: 2px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 425px)
+{
+    .nav-bar {
+        width: 100%;
+        display: flex;
+        padding-top: 30px;
+        background: rgb(15, 59, 15);
+    }
+
+    #links {
+        float: left;
+        padding-top: 55px;
+    }
+
+    .img-responsive {
+        width: 300%;
+        margin-left: 10px;
+    }
+
+    form[id="formulario"] {
+        background: white;
+        width: 310px;
+        margin-left: 11%;
+        margin-top: 40px;
+        padding-left: 16px;
+        padding-right: 15px;
+        padding-top: 18px;
+        border-radius: 0px 0px 20px 20px;
+        /* box-shadow: 0 0 3px black; */
+        height: 580pt;
+        font-weight: bold;
+        display: block;
+        color: #000;
+    }
+
+    form input[type=text], form input[type=password] {
+        width: 114%;
+        height: 45px;
+        border: 1px solid #ccc;
+        padding-left: 0px;
+        margin-right: 40px;
+        border-radius: 10px;
+        /* margin-top: 18px; */
+        margin-left: 0px;
+        outline: none;
+        background: rgb(218 218 218);
+    }
+
+    form input[type=submit] {
+        width: 60%;
+        height: 50px;
+        margin-top: 4px;
+        cursor: pointer;
+        font-family: sans-serif;
+        font-size: 15px;
+        background: rgb(102, 212, 130);
+        color: rgb(24, 105, 24);
+        border-radius: 5px;
+        transition: 0.15s;
+        font-weight: 550;
+        margin-left: 67px;
+        border: none;
+    }
+
+    .texto_imagem {
+        padding-left: 4px;
+    }
+
+    label[for="arquivo"] {
+        padding: 8px;
+        margin-left: -211px;
+        background-color: rgba(93, 189, 90, 0.99);
+        color: rgb(24, 105, 24);
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    label[for="arquivo"] {
+        padding: 8px;
+        margin-left: -123px;
+        background-color: rgba(93, 189, 90, 0.99);
+        color: rgb(24, 105, 24);
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .taxa_entrega {
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+    .footer-rodape-baixo {
+        margin: 0;
+        padding-left: 5px;
+        height: 100px;
+        background: rgb(15, 59, 15);
+    }
+
+    .footer-rodape-baixo img {
+        width: 50%;
+        display: block;
+    }
+
+    .footer-rodape-baixo span {
+        font-size: 0.8125rem;
+        color: white;
+        padding-left: 2px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 768px)
+{
+    .texto_imagem {
+        padding-left: 62px;
+    }
+
+    #links {
+        float: left;
+        padding-left: 900px;
+        padding-top: 4px;
+    }
+
+    .img-responsive {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    form[id="formulario"]{
+        background: white;
+        width: 450px;
+        margin-left: 34%;
+        margin-top: 40px;
+        padding-left: 16px;
+        padding-right: 15px;
+        padding-top: 18px;
+        border-radius: 0px 0px 20px 20px;
+        /*box-shadow: 0 0 3px black;*/
+        height: 556pt;
+        font-weight: bold;
+        display: block;
+        color: #000;
+    }
+
+    form input[type=text],
+    form input[type=password]{
+        width: 110%;
+        height: 45px;
+        border: 1px solid #ccc;
+        padding-left: 10px;
+        /*margin: 10px 40px;*/
+        margin-right: 40px;
+        border-radius: 10px;
+        /*margin-top: 18px;*/
+        margin-left: 45px;
+        outline: none;
+        background: rgb(218 218 218);
+    }
+
+    form input[type=text]::placeholder,
+    form input[type=password]::placeholder{
+        color: gray;
+    }
+
+    form input[type=submit]{
+        width: 60%;
+        height: 50px;
+        margin-top: 4px;
+        cursor: pointer;
+        font-family:sans-serif;
+        font-size: 15px;
+        background: rgb(102, 212, 130);
+        color: rgb(24, 105, 24);
+        border-radius: 5px;
+        transition: 0.15s;
+        font-weight: 550;
+        margin-left: 97px;
+        border: none;          
+    }
+
+    label[for="arquivo"] {
+        padding: 8px;
+        margin-left: -97px;
+        background-color: rgba(93, 189, 90, 0.99);
+        color: rgb(24, 105, 24);
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    
+    .footer-rodape-baixo {
+        padding-bottom: 10px;
+        padding-left: 5px;
+        background: rgb(15, 59, 15);
+    }
+
+    .footer-rodape-baixo img {
+        width: 16%;
+        display: block;
+    }
+
+    .footer-rodape-baixo span {
+        font-size: 0.8125rem;
+        color: white;
+        padding-left: 2px;
+        font-size: 12px;
+    }
+}
+

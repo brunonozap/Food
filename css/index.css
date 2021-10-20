@@ -1,0 +1,948 @@
+
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;   
+}
+
+a{
+	text-decoration: none;
+}
+
+/*.buscar{
+	background-color: #4CAF50; 
+	color: rgb(19, 46, 19);
+	width: 100px;	
+	border-radius: 2px;
+	text-align: center;
+	padding-top: 15px;
+	margin-left: 100px;
+}*/
+
+.promocoes{
+	padding: 4% 0;
+}
+
+/*.imagens{
+	width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}*/
+
+.imagem{
+	width: 50%;
+}
+
+.imagem-curva{
+    border-radius: 15px;
+}
+
+.caixas-3{
+	width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+.caixa-flutuante{
+	position: relative;
+	margin-left: 100px;
+}
+
+/*.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}*/
+
+.descubra{
+	margin-bottom: 20px;
+}
+
+body {
+	font-family: 'Raleway', Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+.button{
+	background-color: #4CAF50; /* Green */
+	color: black;
+}
+.nav-bar {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.logo{
+    width: 30%;
+    float: left;
+	margin-right: 40%;
+}
+
+.content p {
+	color: #3e3e3e;
+	font-size: 1.25rem;
+	font-weight: 500;
+}
+
+.busca_comida{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 2% 0;
+}
+
+.busca_comida input[type="search"]
+{
+	width: 100%;
+	padding: 1%;
+	font-size: 1rem;
+	border: none;
+	border-radius: 5px;
+}
+
+form input[type=submit]{
+	width: 100%;
+	height: 50px;
+	margin-top: 20px;
+	cursor: pointer;
+	font-family:sans-serif;
+	font-size: 15px;
+	background: #4CAF50;
+	color: white;
+	border: 0;
+	border-radius: 5px;
+	transition: 0.15s;
+	font-weight: 550;
+}
+
+.logozap {
+	padding-top: 12px;
+	width: 336px;
+}
+
+.img-logo{
+	width: 60%;
+}
+
+
+/* CSSS for navbar section */
+
+.menu{
+    line-height: 60px;
+    color: white;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding-top: 20%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+    font-weight: bold;
+}
+
+.links{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background-color: #035f1e;
+}
+
+a:hover{
+	color: black;
+}
+
+.img-responsive{
+	width: 300px;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+
+.box-3{
+    width: 200px;
+    float: left;
+    margin-top: 6px;
+    margin-left: 11%;
+}
+
+.float-container{
+    position: static;
+}
+
+.float-text{
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+
+#links {
+    float: left;
+	padding-left: 800px;
+}
+
+.button:hover{
+	color:white;
+}
+
+.btn-green{
+	background-color: #4CAF50; /* Green */
+	color: white;
+	padding: 1%;
+	text-decoration: none;
+	align-items: center;
+	font-weight: bold;
+}
+
+.btn-primary{
+	background-color: #4CAF50;
+	padding: 1%;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.btn-secondary{
+	background-color: #4CAF50;
+}
+
+.td{
+	text-align: center;
+}
+
+.hero p a:hover{
+	color: yellow;
+}
+
+
+/*.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+    position: relative;
+}*/
+
+.header {
+	display: flex;
+	justify-content: flex-end;
+	
+}
+.header ul {
+	display: flex;
+	align-items: center;
+}
+.header ul li {
+	list-style: none;
+	margin: 0 25px;
+	color: #f11414;
+}
+.header ul li a {
+	text-decoration: none;
+	font-weight: 500;
+    color: #4CAF50;
+	margin-right: 5px;
+}
+
+.header ul a:hover {
+	color: #000;
+}
+
+.header ul li {
+	color: #4CAF50;
+}
+
+.bg {
+	display: flex;
+	height: 100%;
+	/*padding-bottom: 20px;*/
+}
+.left img {
+	position: absolute;
+	width: 400px;
+	top: 0;
+	left: 0;
+}
+.left .svg {
+	width: 160px;
+	height: 180px;
+	left: 71px;
+	top: 257px;
+}
+.right img {
+	position: absolute;
+	width: 240px;
+	top: 204px;
+	right: 0;
+}
+.right .svg {
+	width: 198px;
+	height: 172px;
+	right: 138px;
+	top: 106px;
+	transform: rotate(-8deg);
+}
+
+.cuisines-list {
+    width: 100%;
+    max-width: 1363px !important;
+    margin: auto;
+    padding: 0 30px;
+    margin-bottom: 64px;
+    margin-top: 20px;
+}
+
+.content {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.content .logo {
+	width: 90px;
+}
+
+.content h2 {
+	font-size: 2.5rem;
+	color: #3e3e3e;
+	font-weight: 600;
+	margin: 20px 0;
+}
+
+.content h2 span {
+	color: #4CAF50;
+}
+
+
+.form {
+	width: 100%;
+	max-width: 780px;
+	display: flex;
+}
+
+.form .search {
+	width: 100%;
+	max-width: 650px;
+	background: #fff;
+	height: 50px;
+	border-radius: 4px;
+	margin-right: 20px;
+	display: flex;
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.form .search img {
+	width: 26px;
+	margin: 0 20px;
+}
+
+.form .search input {
+	width: 100%;
+	background: transparent;
+	border: 0;
+	outline: none;
+	font-size: 1rem;
+}
+
+.form .search input::placeholder {
+	font-weight: 400;
+	color: #a6a6a6;
+}
+
+.form button {
+	width: 210px;
+	background: #4CAF50;
+	color: #fff;
+	font-weight: 400;
+	border: 0;
+	border-radius: 4px;
+}
+
+.form button:hover {
+	background: #4CAF50;
+}
+
+.tags {
+	margin: 30px 0;
+}
+
+.success{
+	color: #2ed579;
+}
+
+.error{
+	color: #ff4757;
+}
+
+
+/*.banner {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+
+.banner img {
+	width: 100%;
+	max-width: 390px;
+	margin: 0 10px;
+	transition: 0.2s;
+}*/
+
+.background{
+	width: 100%;
+	max-width: 390px;
+	margin: 0 10px;
+	transition: 0.2s;
+	color: green;
+}
+
+.banner img:hover {
+	transform: scale(1.02);
+}
+
+.footer-rodape {
+	display: block;
+    padding-top: 30px;
+}
+
+
+
+
+
+.table-full{
+	width: 100%;
+}
+
+table tr th{
+	border-bottom: 1px solid black;
+	padding: 1%;
+}
+
+.table-full tr td p a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 3px solid green;
+}
+
+/* ENTRAR */
+
+	
+
+        /*form{
+            background: white;
+            width: 500px;
+			margin-left: 240pt;
+			padding-left: 45px;
+			padding-right: 45px;
+			padding-top: 50px;
+			height: 520px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 5px;
+			box-shadow: 0 0 3px black;
+        }*/
+        form h1{
+            text-align: justify;
+            font-family:sans-serif;
+			font-weight: 600;
+			font-size: 35px;
+			color: #414143;
+
+        }
+		form p {
+			font-family:sans-serif;
+			color: #717171;
+			font-size: 25px;
+			text-align: center;
+		}
+        form input[type=text],
+        form input[type=password]{
+            width: 100%;
+            height: 45px;
+            border: 1px solid #ccc;
+            padding-left: 10px;
+            margin: 10px 0;
+            border-radius: 10px;
+			margin-top: 20px;
+        }
+
+		form input[type=submit-2]{
+            width: 100%;
+            height: 50px;
+			margin-top: 20px;
+			text-align: center;
+            cursor: pointer;
+			font-family:sans-serif;
+			font-size: 15px;
+            background: #ffffff;
+            color: #717171;
+            border: 0;
+            border-radius: 5px;
+            transition: 0.15s;
+			font-weight: 550;
+			box-shadow: 0 0 3px #717171;
+        }
+		form input[type=submit-3]{
+            width: 100%;
+            height: 50px;
+			margin-top: 20px;
+			text-align: center;
+            cursor: pointer;
+			font-family:sans-serif;
+			font-size: 15px;
+            background: #ffffff;
+            color: #717171;
+            border: 0;
+            border-radius: 5px;
+            transition: 0.15s;
+			font-weight: 550;
+			box-shadow: 0 0 3px #717171;
+        }
+        form input[type=submit]:hover{
+            background-color: #4CAF50;
+        }
+		form input[type=submit-2]:hover{
+            color: #414143;
+        }
+		form input[type=submit-3]:hover{
+            background-color: #4CAF50;
+        }
+        form input[type=text]:focus{
+            outline: 0;
+        }
+        form input[type=password]:focus{
+            outline: 0;
+        }
+
+		.footer-rodape {
+			margin-top: 20px;
+		}
+        .nozap-coluna {
+			float: left;
+			width: 250px;
+		}
+
+        .nozapfood {
+            font-family: "SulSans", Helvetica, sans-serif;
+			color: #000;
+		}
+		.sobre {
+			text-decoration:none; 
+			color: grey;
+			font-family: "SulSans", Helvetica, sans-serif;
+			list-style: none;
+			cursor: pointer;
+		}
+		.contate-nos {
+			text-decoration:none;
+			color: grey;
+			margin-top: 20px;
+			font-family: "SulSans", Helvetica, sans-serif;
+			list-style: none;
+			cursor: pointer;
+		}
+
+		.parceiros-coluna {
+			float: left;
+			display: block;
+			width: 250px;
+			color: #000;
+		}
+		.parcerias {
+			text-decoration:none;
+			font-family: "SulSans", Helvetica, sans-serif;
+			
+		}
+
+		.restaurantes {
+			text-decoration: none;
+			color: grey;
+			list-style: none;
+			cursor: pointer;
+		}
+		.redes-coluna {
+			float: left;
+			display: block;
+			width: 250px;
+		}
+
+		.redes-sociais {
+			display: block;
+			text-decoration:none;
+			font-family: "SulSans", Helvetica, sans-serif;
+		}
+
+		.icones-sociais {
+			display: inline;
+		}
+        .facebook {
+			display: inline;
+			width: 25px;
+            cursor: pointer;
+		}
+		.facebook:hover {
+			display: inline;
+			width: 30px;
+		}
+		.whatsapp {
+			display: inline;
+			width: 25px;
+			cursor: pointer;
+		}
+		.whatsapp:hover {
+			display: inline;
+			width: 30px;
+		}
+		.youtube {
+			display: inline;
+			width: 25px;
+			padding-left: 4px;
+			cursor: pointer;
+		}
+		.youtube:hover {
+			display: inline;
+			width: 30px;
+			padding-left: 4px;
+		}
+		.instagram {
+			display: inline;
+			width: 25px;
+			padding-left: 4px;
+			cursor: pointer;
+		}
+		.instagram:hover {
+			display: inline;
+			width: 30px;
+			padding-left: 4px;
+		}
+
+		.telefone-coluna {
+			float: left;
+			display: block;
+			width: 250px;
+		}
+		.telefone {
+			display: block;
+			text-decoration:none;
+			font-family: "SulSans", Helvetica, sans-serif;
+		}
+		.link-restaurante {
+			text-decoration: none;
+		}
+
+@media only screen and (min-width: 320px) {
+	.navbar {
+		background-color: #035f1e;
+	}
+
+	
+	.text-right{
+		text-align: right;
+		margin-left: 50%;
+	}
+
+	.img-logo{
+		width: 200px;
+		margin-left: 10px;
+		margin-top: 5%;
+	}
+
+	.content p {
+		color: #3e3e3e;
+		font-size: 1.25rem;
+		font-weight: 500;
+	}
+	
+	.categories {
+		margin-bottom: 148px;
+		width: 100%;
+	}
+	
+	.logozap {
+		padding-top: 12px;
+		width: 60%;
+		height: auto;
+	}
+
+	.tags span {
+		font-size: 0.875rem;
+		font-weight: 400;
+		color: #818181;
+		border: 1px solid #ccc;
+		padding: 4px;
+		border-radius: 3px;
+		margin: 6px;
+	}
+
+	.footer-rodape-baixo {
+		background-color: #035f1e;
+		width: 100%;
+		margin-top: 100%;
+	}
+
+	.footer-rodape-baixo img {
+		width: 50%;
+		display: block;
+	}
+	
+	.footer-rodape-baixo span {
+		font-size: 12px;
+		color: white;
+		padding-left: 2px;
+	}
+
+	.img-responsive {
+		width: 120%;
+		margin-left: 5%;
+		margin-top: 5%;
+		margin-bottom: 6%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.navbar {
+		background-color: #035f1e;
+	}
+
+	.text-right{
+		text-align: right;
+		margin-left: 50%;
+	}
+
+	.container {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.img-logo{
+		width: 200px;
+		margin-left: 10px;
+		margin-top: 5%;
+	}
+
+	.content p {
+		color: #3e3e3e;
+		font-size: 1.25rem;
+		font-weight: 500;
+	}
+	
+	.categories {
+		margin-bottom: 148px;
+		/*margin-left: 5%;*/
+		width: 100%;
+	}
+	
+	.logozap {
+		padding-top: 12px;
+		width: 20%;
+		height: auto;
+	}
+
+	.tags span {
+		font-size: 0.875rem;
+		font-weight: 400;
+		color: #818181;
+		border: 1px solid #ccc;
+		padding: 4px;
+		border-radius: 3px;
+		margin: 6px;
+	}
+
+	.footer-rodape-baixo {
+		background-color: #035f1e;
+		width: 100%;
+		margin-top: 100px;
+	}
+
+	.footer-rodape-baixo img {
+		width: 25%;
+		display: block;
+	}
+	
+	.footer-rodape-baixo span {
+		font-size: 12px;
+		color: white;
+		padding-left: 2px;
+	}
+}
+
+@media only screen and (min-width: 1024px){
+	.img-logo{
+		width: 50%;
+	}
+
+	.container {
+		width: 100%;
+		padding-bottom: 2%;
+	}
+
+	.logo {
+		width: 30%;
+		float: left;
+		margin-right: -40%;
+	}
+
+	.text-right {
+		margin-right: 10%;
+	}
+
+	.footer-rodape-baixo {
+		background-color: #035f1e;
+		bottom: 0;
+		width: 100%;
+		margin-top: 100px;
+	}
+
+	.footer-rodape-baixo img {
+		width: 15%;
+		display: block;
+	}
+	
+	.footer-rodape-baixo span {
+		font-size: 12px;
+		color: white;
+		padding-left: 2px;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+
+	.img-logo {
+		width: 287px;
+		margin-left: 10px;
+		margin-top: 5%;
+	}
+
+	.img-responsive {
+		width: 148%;
+		margin-left: 80%;
+		margin-top: 5%;
+		margin-bottom: 6%;
+	}
+
+	.content h2 {
+		font-size: 3.5rem;
+		color: #3e3e3e;
+		font-weight: 600;
+		margin: 20px 0;
+	}
+
+	
+	.text-right{
+		text-align: right;
+		margin-left: 50%;
+	}
+
+	.categories {
+		margin-bottom: 148px;
+		/*margin-left: 13%;*/
+		width: 100%;
+	}
+
+	.text-right {
+		text-align: center;
+		margin-left: 5%;
+		margin-top: 2%;
+	}
+
+	.logo {
+		width: 30%;
+		float: left;
+		margin-right: 4%;
+	}
+
+	form input[type=submit] {
+		width: 100%;
+		height: 50px;
+		margin-top: 20px;
+		cursor: pointer;
+		font-family: sans-serif;
+		font-size: 32px;
+		background: #4CAF50;
+		color: white;
+		border: 0;
+		border-radius: 5px;
+		transition: 0.15s;
+		font-weight: 550;
+	}
+
+	.content p {
+		color: #3e3e3e;
+		font-size: 35px;
+		font-weight: 500;
+	}
+
+	.links {
+		color: white;
+		font-size: 25px;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	.footer-rodape-baixo {
+		background-color: #035f1e;
+		bottom: 0;
+		width: 100%;
+		margin-top: 100px;
+	}
+
+	.footer-rodape-baixo img {
+		width: 15%;
+		display: block;
+	}
+	
+	.footer-rodape-baixo span {
+		font-size: 12px;
+		color: white;
+		padding-left: 2px;
+	}
+
+	.container {
+		width: 100%;
+		margin: 0 auto;
+		padding-bottom: 1%;
+		position: relative;
+		padding-top: 0.2%;
+	}
+
+	.logozap {
+		padding-top: 12px;
+		width: 17%;
+		height: auto;
+	}
+
+	.busca_comida input[type="search"] {
+		width: 100%;
+		padding: 1%;
+		font-size: 29px;
+		border: none;
+		border-radius: 5px;
+	}
+
+	.tags span {
+		font-size: 26px;
+		font-weight: 400;
+		color: #818181;
+		border: 1px solid #ccc;
+		padding: 4px;
+		border-radius: 3px;
+		margin: 6px;
+	}
+
+}
+
+
+
+    

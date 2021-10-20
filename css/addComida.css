@@ -1,0 +1,773 @@
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-logo{
+	display:inline;
+	width: 300px;
+	padding: 50px;
+	margin: 20px;
+}
+
+.main-content{
+    margin: 0;
+}
+
+.img-left
+{
+	text-align: left;
+	margin-right: 1000px;
+    margin-bottom: -86px;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #67db6b;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #5ad85e;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #4ea050;
+}
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+/* CSS for Categories */
+.categories{
+    padding: 4% 0;
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+.float-container{
+    position: relative;
+}
+
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+
+/* CSS FORMULARIO */
+
+.titulo {
+    padding-top: 5px;
+    padding-left: 10px;
+    text-align: center;
+    color: black;
+}
+
+.formulario-geral {
+    padding-top: 25px;
+    margin-bottom: 20px;
+}
+
+form[id="formulario"] {
+    background: white;
+    width: 450px;
+    margin-left: 34%;
+    margin-top: 40px;
+    padding-left: 16px;
+    padding-right: 15px;
+    padding-top: 18px;
+    border-radius: 0px 0px 20px 20px;
+    /* box-shadow: 0 0 3px black; */
+    height: 485pt;
+    font-weight: bold;
+    display: block;
+    color: #000;
+}
+
+table[class="tbl-30"] {
+    padding-top: 10px;
+    padding-left: 32px;
+}
+
+form input[type=text], form input[type=password], form input[type=number] {
+    width: 110%;
+    height: 45px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    /* margin: 10px 40px; */
+    margin-right: 40px;
+    border-radius: 10px;
+    /* margin-top: 18px; */
+    margin-left: 45px;
+    outline: none;
+    background: rgb(218 218 218);
+}
+
+.categoria{
+	margin-left: 100px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+
+.primeira-pagina{
+	margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ativo{
+	margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.distanciamento_img1 {
+    margin-bottom: 23px;
+}
+
+.distanciamento_img2 {
+    margin-top: 23px;
+}
+
+.margem_espaçamento {
+    margin-top: 18px;
+}
+
+.texto_imagem {
+    padding-left: 98px;
+}
+
+label[for="arquivo"] {
+    padding: 8px;
+    margin-left: -80px;
+    background-color: rgba(93, 189, 90, 0.99);
+    color: rgb(24, 105, 24);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+label[for="categorias"] {
+	margin-left: 40px;
+    /*padding: 8px;
+    margin-left: -80px;
+    background-color: rgba(93, 189, 90, 0.99);
+    color: rgb(24, 105, 24);
+    border-radius: 5px;
+    cursor: pointer;*/
+}
+
+input[type="file"] {
+    display: none;
+}
+
+form input[type=submit] {
+    width: 60%;
+    height: 50px;
+    margin-top: 4px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 15px;
+    background: rgb(102, 212, 130);
+    color: rgb(24, 105, 24);
+    border-radius: 5px;
+    transition: 0.15s;
+    font-weight: 550;
+    margin-left: 97px;
+    border: none;
+}
+
+#add-restaurante-Fundo {
+    width: 100%;
+    height: 196vh;
+    background-image: url(../imagens/pratos-fundo.jpg);
+    background-size: cover;
+}
+
+
+/* FIM CSS FORMULARIO*/
+
+
+/* CSS for navbar section */
+
+.logo{
+    width: 10%;
+    float: left;
+}
+.menu{
+    line-height: 60px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+.text-white{
+    color: white;
+}
+
+.container {
+	margin: 0;
+}
+
+.navbar {
+    display: flex;
+    padding-left: 10px;
+    background-color: rgb(9, 116, 50);
+}
+
+.header {
+	display: flex;
+	justify-content: centerw;
+	margin: 0 45px;
+}
+.header ul {
+	display: flex;
+	align-items: center;
+    margin-left: 120%;
+}
+
+.header ul li {
+	list-style: none;
+	margin: 0 25px;
+	color: #4CAF50;
+}
+.header ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+.header ul li2 a {
+	text-decoration: none;
+	color: #4CAF50;
+}
+
+.header ul li2 a:hover {
+	background: #4CAF50;
+	color: white;
+}
+
+.header ul li2:last-child:hover{
+	background: #4CAF50;
+}
+
+.header ul li a:hover .child1{
+	color: #4CAF50;
+}
+
+.header ul li2:last-child {
+	background: #fff;
+	padding: 15px 45px;
+	margin: 0 0 0 25px;
+	border-radius: 5px;
+	border: 1px solid #dcdcdc;
+	color: white;
+	font-weight: 500;
+}
+
+.header ul li {
+	color: #4CAF50;
+}
+
+h1{
+    padding-left: 500px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.bg {
+	display: flex;
+	height: 100%;
+	padding-bottom: 20px;
+}
+.left img {
+	position: absolute;
+	width: 400px;
+	top: 0;
+	left: 0;
+}
+.left .svg {
+	width: 160px;
+	height: 180px;
+	left: 71px;
+	top: 257px;
+}
+.right img {
+	position: absolute;
+	width: 240px;
+	top: 204px;
+	right: 0;
+}
+.right .svg {
+	width: 198px;
+	height: 172px;
+	right: 138px;
+	top: 106px;
+	transform: rotate(-8deg);
+}
+
+.cuisines-list {
+    width: 100%;
+    max-width: 1363px !important;
+    margin: auto;
+    padding: 0 30px;
+    margin-bottom: 64px;
+    margin-top: 20px;
+}
+
+.carousel {
+	width: 100px;
+	margin: 0 auto;
+}
+
+.content {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.content .logo {
+	width: 120px;
+}
+
+.content h2 {
+	font-size: 2.5rem;
+	color: #3e3e3e;
+	font-weight: 600;
+	margin: 20px 0;
+}
+
+.content h2 span {
+	color: #4CAF50;
+}
+.content p {
+	color: #3e3e3e;
+	font-size: 1.25rem;
+	font-weight: 500;
+}
+
+.form {
+	width: 100%;
+	max-width: 780px;
+	display: flex;
+}
+
+.form .search {
+	width: 100%;
+	max-width: 650px;
+	background: #fff;
+	height: 50px;
+	border-radius: 4px;
+	margin-right: 20px;
+	display: flex;
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.form .search img {
+	width: 26px;
+	margin: 0 20px;
+}
+
+.form .search input {
+	width: 100%;
+	background: transparent;
+	border: 0;
+	outline: none;
+	font-size: 1rem;
+}
+
+.form .search input::placeholder {
+	font-weight: 400;
+	color: #a6a6a6;
+}
+
+.form button {
+	width: 210px;
+	background: #4CAF50;
+	color: #fff;
+	font-weight: 400;
+	border: 0;
+	border-radius: 4px;
+}
+
+.form button:hover {
+	background: #4CAF50;
+}
+
+.tags {
+	margin: 30px 0;
+}
+
+.success{
+	color: #2ed579;
+}
+
+.error{
+	color: #ff4757;
+}
+
+/* CSS for Social */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* CSSS for navbar section */
+
+.logo {
+    width: 20%;
+    float: left;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.menu{
+    line-height: 60px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+.tags span {
+	font-size: 0.875rem;
+	font-weight: 400;
+	color: #818181;
+	border: 1px solid #ccc;
+	padding: 4px;
+	border-radius: 3px;
+	margin: 6px;
+}
+
+.banner {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+
+.banner img {
+	width: 100%;
+	max-width: 390px;
+	margin: 0 10px;
+	transition: 0.2s;
+}
+.banner img:hover {
+	transform: scale(1.02);
+}
+
+
+.table-full{
+	width: 100%;
+}
+
+table tr th{
+	border-bottom: 1px solid black;
+	padding: 1%;
+}
+
+.table-full tr td{
+	text-align: center;
+	align-items: center;
+	padding: 5px;
+	border: 1px;
+}
+
+.table-full tr td p a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 10px solid green;
+	padding: 5px;
+}
+
+.section h3{
+	font-family: "SulSans", Helvetica, sans-serif;
+	font-size: 1.25rem;
+	font-weight: 500;
+	margin-left: 66px;
+	margin-top: 52px;
+
+}
+
+
+/* ENTRAR */
+
+    
+        form h1{
+            text-align: justify;
+            font-family:sans-serif;
+			font-weight: 600;
+			font-size: 35px;
+			color: #414143;
+
+        }
+		form p {
+			font-family:sans-serif;
+			color: #717171;
+			font-size: 25px;
+			text-align: center;
+		}
+
+
+		form input[type=submit-2]{
+            width: 100%;
+            height: 50px;
+			margin-top: 20px;
+			text-align: center;
+            cursor: pointer;
+			font-family:sans-serif;
+			font-size: 15px;
+            background: #ffffff;
+            color: #717171;
+            border: 0;
+            border-radius: 5px;
+            transition: 0.15s;
+			font-weight: 550;
+			box-shadow: 0 0 3px #717171;
+        }
+		form input[type=submit-3]{
+            width: 100%;
+            height: 50px;
+			margin-top: 20px;
+			text-align: center;
+            cursor: pointer;
+			font-family:sans-serif;
+			font-size: 15px;
+            background: #ffffff;
+            color: #717171;
+            border: 0;
+            border-radius: 5px;
+            transition: 0.15s;
+			font-weight: 550;
+			box-shadow: 0 0 3px #717171;
+        }
+        form input[type=submit]:hover{
+            background-color: #4CAF50;
+        }
+		form input[type=submit-2]:hover{
+            color: #414143;
+        }
+		form input[type=submit-3]:hover{
+            background-color: #4CAF50;
+        }
+        form input[type=text]:focus{
+            outline: 0;
+        }
+        form input[type=password]:focus{
+            outline: 0;
+        }
+	
+
+		.footer-rodape-baixo {
+			margin: 0;
+			background-color: rgb(15, 59, 15);
+        }
+        
+        .footer-rodape-baixo img {
+            width: 40px;
+            display: block;
+        }
+        
+        .footer-rodape-baixo span {
+            font-size: 0.8125rem;
+			color: white;
+			padding-left: 2px;
+			font-size: 12px;
+        }
+
+
+@media only screen and (max-width: 768px) 
+{
+    .formulario-geral {
+        padding-top: 25px;
+        width: 55%;
+        margin-bottom: 20px;
+    }
+
+    .header {
+        margin-left: auto;
+    }
+
+    .img-responsive {
+        width: 100%;
+    }
+
+    .texto_imagem {
+        padding-left: 10px;
+    }
+
+    .header ul {
+        display: flex;
+        align-items: center;
+        margin-left: 2%;
+    }
+
+    .header ul li {
+        list-style: none;
+        margin: 0 5px;
+        color: #4CAF50;
+    }
+
+    label[for="arquivo"] {
+        padding: 8px;
+        margin-left: -109px;
+        background-color: rgba(93, 189, 90, 0.99);
+        color: rgb(24, 105, 24);
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #placeholder{
+        text-align: center;
+    }
+
+    .categoria {
+        margin-left: 37px;
+        margin-bottom: 15px;
+        margin-top: 25px;
+    }
+
+    .img-responsive {
+        width: 100%;
+    }
+
+    #add-restaurante-Fundo {
+        width: 100%;
+        height: 150vh;
+        background-image: url(../imagens/pratos-fundo.jpg);
+        background-size: cover;
+    }
+
+    form[id="formulario"] {
+        background: white;
+        width: 150%;
+        margin-left: 10%;
+        margin-top: 40px;
+        border-radius: 0px 0px 20px 20px;
+        /* box-shadow: 0 0 3px black; */
+        height: 580pt;
+        font-weight: bold;
+        display: block;
+        color: #000;
+    }
+
+    form input[type=text], form input[type=password], form input[type=number] {
+        width: 87%;
+        height: 45px;
+        border: 1px solid #ccc;
+        padding-left: 33px;
+        /* margin: 10px 40px; */
+        border-radius: 10px;
+        /* margin-top: 18px; */
+        margin-left: -1px;
+        outline: none;
+        background: rgb(218 218 218);
+    }
+
+    form input[type=submit] {
+        width: 60%;
+        height: 50px;
+        margin-top: 4px;
+        cursor: pointer;
+        font-family: sans-serif;
+        font-size: 15px;
+        background: rgb(102, 212, 130);
+        color: rgb(24, 105, 24);
+        border-radius: 5px;
+        transition: 0.15s;
+        font-weight: 550;
+        margin-left: 42px;
+        border: none;
+    }
+   
+}
+
+@media only screen and (min-width: 1024px) 
+{
+
+}
+  
